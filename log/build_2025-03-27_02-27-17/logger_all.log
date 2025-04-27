@@ -1,0 +1,580 @@
+[0.461s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/home/ela2/.local/bin/colcon', 'build'][0m
+[0.461s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffa1e1ac20>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa1fc06a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa1fc06a0>>)[0m
+[0.650s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.651s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.651s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.651s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.651s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.651s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.651s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/ela2/ros2_ws_arms'
+[0.652s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.652s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.652s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.652s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.653s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.653s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.653s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.653s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.653s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.699s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.699s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.700s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.700s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.700s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.700s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.700s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.700s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.701s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.701s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.701s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.701s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.702s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.702s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.702s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.702s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.702s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.702s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.702s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.702s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.703s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.703s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.703s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.703s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.703s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.703s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.703s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.703s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.703s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot) by extensions ['ignore', 'ignore_ament_install']
+[0.704s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot) by extension 'ignore'
+[0.704s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot) by extension 'ignore_ament_install'
+[0.704s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot) by extensions ['colcon_pkg']
+[0.704s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot) by extension 'colcon_pkg'
+[0.704s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot) by extensions ['colcon_meta']
+[0.704s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot) by extension 'colcon_meta'
+[0.704s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot) by extensions ['ros']
+[0.704s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot) by extension 'ros'
+[0.705s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot) by extensions ['cmake', 'python']
+[0.705s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot) by extension 'cmake'
+[0.705s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot) by extension 'python'
+[0.705s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot) by extensions ['python_setup_py']
+[0.705s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot) by extension 'python_setup_py'
+[0.705s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/IR_Model) by extensions ['ignore', 'ignore_ament_install']
+[0.705s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/IR_Model) by extension 'ignore'
+[0.705s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/IR_Model) by extension 'ignore_ament_install'
+[0.706s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/IR_Model) by extensions ['colcon_pkg']
+[0.706s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/IR_Model) by extension 'colcon_pkg'
+[0.706s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/IR_Model) by extensions ['colcon_meta']
+[0.706s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/IR_Model) by extension 'colcon_meta'
+[0.706s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/IR_Model) by extensions ['ros']
+[0.706s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/IR_Model) by extension 'ros'
+[0.706s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/IR_Model) by extensions ['cmake', 'python']
+[0.706s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/IR_Model) by extension 'cmake'
+[0.706s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/IR_Model) by extension 'python'
+[0.706s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/IR_Model) by extensions ['python_setup_py']
+[0.706s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/IR_Model) by extension 'python_setup_py'
+[0.707s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/Launch) by extensions ['ignore', 'ignore_ament_install']
+[0.707s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/Launch) by extension 'ignore'
+[0.707s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/Launch) by extension 'ignore_ament_install'
+[0.707s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/Launch) by extensions ['colcon_pkg']
+[0.707s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/Launch) by extension 'colcon_pkg'
+[0.707s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/Launch) by extensions ['colcon_meta']
+[0.707s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/Launch) by extension 'colcon_meta'
+[0.707s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/Launch) by extensions ['ros']
+[0.708s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/Launch) by extension 'ros'
+[0.708s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/Launch) by extensions ['cmake', 'python']
+[0.708s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/Launch) by extension 'cmake'
+[0.708s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/Launch) by extension 'python'
+[0.708s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/Launch) by extensions ['python_setup_py']
+[0.708s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/Launch) by extension 'python_setup_py'
+[0.708s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/NER_Model) by extensions ['ignore', 'ignore_ament_install']
+[0.708s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/NER_Model) by extension 'ignore'
+[0.709s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/NER_Model) by extension 'ignore_ament_install'
+[0.709s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/NER_Model) by extensions ['colcon_pkg']
+[0.709s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/NER_Model) by extension 'colcon_pkg'
+[0.709s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/NER_Model) by extensions ['colcon_meta']
+[0.709s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/NER_Model) by extension 'colcon_meta'
+[0.709s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/NER_Model) by extensions ['ros']
+[0.709s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/NER_Model) by extension 'ros'
+[0.709s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/NER_Model) by extensions ['cmake', 'python']
+[0.709s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/NER_Model) by extension 'cmake'
+[0.709s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/NER_Model) by extension 'python'
+[0.710s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/NER_Model) by extensions ['python_setup_py']
+[0.710s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/NER_Model) by extension 'python_setup_py'
+[0.710s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision) by extensions ['ignore', 'ignore_ament_install']
+[0.710s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision) by extension 'ignore'
+[0.710s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision) by extension 'ignore_ament_install'
+[0.710s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision) by extensions ['colcon_pkg']
+[0.710s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision) by extension 'colcon_pkg'
+[0.710s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision) by extensions ['colcon_meta']
+[0.710s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision) by extension 'colcon_meta'
+[0.711s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision) by extensions ['ros']
+[0.711s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision) by extension 'ros'
+[0.711s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision) by extensions ['cmake', 'python']
+[0.711s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision) by extension 'cmake'
+[0.711s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision) by extension 'python'
+[0.711s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision) by extensions ['python_setup_py']
+[0.711s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision) by extension 'python_setup_py'
+[0.712s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/data_collection) by extensions ['ignore', 'ignore_ament_install']
+[0.712s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/data_collection) by extension 'ignore'
+[0.712s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/data_collection) by extension 'ignore_ament_install'
+[0.712s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/data_collection) by extensions ['colcon_pkg']
+[0.713s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/data_collection) by extension 'colcon_pkg'
+[0.713s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/data_collection) by extensions ['colcon_meta']
+[0.713s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/data_collection) by extension 'colcon_meta'
+[0.713s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/data_collection) by extensions ['ros']
+[0.713s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/data_collection) by extension 'ros'
+[0.713s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/data_collection) by extensions ['cmake', 'python']
+[0.713s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/data_collection) by extension 'cmake'
+[0.713s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/data_collection) by extension 'python'
+[0.713s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/data_collection) by extensions ['python_setup_py']
+[0.713s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/data_collection) by extension 'python_setup_py'
+[0.714s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/data_collection/data) by extensions ['ignore', 'ignore_ament_install']
+[0.714s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/data_collection/data) by extension 'ignore'
+[0.714s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/data_collection/data) by extension 'ignore_ament_install'
+[0.714s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/data_collection/data) by extensions ['colcon_pkg']
+[0.715s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/data_collection/data) by extension 'colcon_pkg'
+[0.715s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/data_collection/data) by extensions ['colcon_meta']
+[0.715s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/data_collection/data) by extension 'colcon_meta'
+[0.715s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/data_collection/data) by extensions ['ros']
+[0.715s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/data_collection/data) by extension 'ros'
+[0.715s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/data_collection/data) by extensions ['cmake', 'python']
+[0.715s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/data_collection/data) by extension 'cmake'
+[0.715s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/data_collection/data) by extension 'python'
+[0.715s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/data_collection/data) by extensions ['python_setup_py']
+[0.715s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/data_collection/data) by extension 'python_setup_py'
+[0.716s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/model_training) by extensions ['ignore', 'ignore_ament_install']
+[0.716s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/model_training) by extension 'ignore'
+[0.716s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/model_training) by extension 'ignore_ament_install'
+[0.717s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/model_training) by extensions ['colcon_pkg']
+[0.717s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/model_training) by extension 'colcon_pkg'
+[0.717s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/model_training) by extensions ['colcon_meta']
+[0.717s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/model_training) by extension 'colcon_meta'
+[0.717s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/model_training) by extensions ['ros']
+[0.717s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/model_training) by extension 'ros'
+[0.717s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/model_training) by extensions ['cmake', 'python']
+[0.717s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/model_training) by extension 'cmake'
+[0.717s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/model_training) by extension 'python'
+[0.717s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/model_training) by extensions ['python_setup_py']
+[0.717s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/model_training) by extension 'python_setup_py'
+[0.718s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/real_time_detection) by extensions ['ignore', 'ignore_ament_install']
+[0.718s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/real_time_detection) by extension 'ignore'
+[0.718s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/real_time_detection) by extension 'ignore_ament_install'
+[0.718s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/real_time_detection) by extensions ['colcon_pkg']
+[0.719s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/real_time_detection) by extension 'colcon_pkg'
+[0.719s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/real_time_detection) by extensions ['colcon_meta']
+[0.719s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/real_time_detection) by extension 'colcon_meta'
+[0.719s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/real_time_detection) by extensions ['ros']
+[0.719s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/real_time_detection) by extension 'ros'
+[0.719s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/real_time_detection) by extensions ['cmake', 'python']
+[0.719s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/real_time_detection) by extension 'cmake'
+[0.719s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/real_time_detection) by extension 'python'
+[0.719s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/real_time_detection) by extensions ['python_setup_py']
+[0.719s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/real_time_detection) by extension 'python_setup_py'
+[0.720s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/utils) by extensions ['ignore', 'ignore_ament_install']
+[0.720s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/utils) by extension 'ignore'
+[0.720s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/utils) by extension 'ignore_ament_install'
+[0.720s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/utils) by extensions ['colcon_pkg']
+[0.721s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/utils) by extension 'colcon_pkg'
+[0.721s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/utils) by extensions ['colcon_meta']
+[0.721s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/utils) by extension 'colcon_meta'
+[0.721s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/utils) by extensions ['ros']
+[0.721s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/utils) by extension 'ros'
+[0.721s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/utils) by extensions ['cmake', 'python']
+[0.721s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/utils) by extension 'cmake'
+[0.721s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/utils) by extension 'python'
+[0.721s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/utils) by extensions ['python_setup_py']
+[0.721s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Chatbot/new_machin_vision/utils) by extension 'python_setup_py'
+[0.722s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/GUI) by extensions ['ignore', 'ignore_ament_install']
+[0.722s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/GUI) by extension 'ignore'
+[0.722s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/GUI) by extension 'ignore_ament_install'
+[0.722s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/GUI) by extensions ['colcon_pkg']
+[0.722s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/GUI) by extension 'colcon_pkg'
+[0.722s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/GUI) by extensions ['colcon_meta']
+[0.722s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/GUI) by extension 'colcon_meta'
+[0.722s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/GUI) by extensions ['ros']
+[0.722s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/GUI) by extension 'ros'
+[0.723s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/GUI) by extensions ['cmake', 'python']
+[0.723s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/GUI) by extension 'cmake'
+[0.723s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/GUI) by extension 'python'
+[0.723s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/GUI) by extensions ['python_setup_py']
+[0.723s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/GUI) by extension 'python_setup_py'
+[0.723s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ela2_arms) by extensions ['ignore', 'ignore_ament_install']
+[0.723s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ela2_arms) by extension 'ignore'
+[0.723s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ela2_arms) by extension 'ignore_ament_install'
+[0.724s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ela2_arms) by extensions ['colcon_pkg']
+[0.724s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ela2_arms) by extension 'colcon_pkg'
+[0.724s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ela2_arms) by extensions ['colcon_meta']
+[0.724s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ela2_arms) by extension 'colcon_meta'
+[0.724s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ela2_arms) by extensions ['ros']
+[0.724s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ela2_arms) by extension 'ros'
+[0.731s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/ela2_arms' with type 'ros.ament_cmake' and name 'ela2_arms'[0m
+[0.732s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ela2_arms_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.732s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ela2_arms_controller) by extension 'ignore'
+[0.732s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ela2_arms_controller) by extension 'ignore_ament_install'
+[0.732s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ela2_arms_controller) by extensions ['colcon_pkg']
+[0.732s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ela2_arms_controller) by extension 'colcon_pkg'
+[0.732s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ela2_arms_controller) by extensions ['colcon_meta']
+[0.733s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ela2_arms_controller) by extension 'colcon_meta'
+[0.733s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ela2_arms_controller) by extensions ['ros']
+[0.733s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ela2_arms_controller) by extension 'ros'
+[0.734s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/ela2_arms_controller' with type 'ros.ament_cmake' and name 'ela2_arms_controller'[0m
+[0.734s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ela2_cpp_arms) by extensions ['ignore', 'ignore_ament_install']
+[0.735s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ela2_cpp_arms) by extension 'ignore'
+[0.735s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ela2_cpp_arms) by extension 'ignore_ament_install'
+[0.735s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ela2_cpp_arms) by extensions ['colcon_pkg']
+[0.735s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ela2_cpp_arms) by extension 'colcon_pkg'
+[0.735s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ela2_cpp_arms) by extensions ['colcon_meta']
+[0.735s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ela2_cpp_arms) by extension 'colcon_meta'
+[0.735s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ela2_cpp_arms) by extensions ['ros']
+[0.735s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ela2_cpp_arms) by extension 'ros'
+[0.737s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/ela2_cpp_arms' with type 'ros.ament_cmake' and name 'ela2_cpp_arms'[0m
+[0.737s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ela2_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.737s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ela2_moveit) by extension 'ignore'
+[0.737s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ela2_moveit) by extension 'ignore_ament_install'
+[0.737s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ela2_moveit) by extensions ['colcon_pkg']
+[0.737s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ela2_moveit) by extension 'colcon_pkg'
+[0.737s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ela2_moveit) by extensions ['colcon_meta']
+[0.738s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ela2_moveit) by extension 'colcon_meta'
+[0.738s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ela2_moveit) by extensions ['ros']
+[0.738s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ela2_moveit) by extension 'ros'
+[0.739s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/ela2_moveit' with type 'ros.ament_cmake' and name 'ela2_moveit'[0m
+[0.739s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ela2_py_arms) by extensions ['ignore', 'ignore_ament_install']
+[0.739s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ela2_py_arms) by extension 'ignore'
+[0.740s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ela2_py_arms) by extension 'ignore_ament_install'
+[0.740s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ela2_py_arms) by extensions ['colcon_pkg']
+[0.740s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ela2_py_arms) by extension 'colcon_pkg'
+[0.740s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ela2_py_arms) by extensions ['colcon_meta']
+[0.740s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ela2_py_arms) by extension 'colcon_meta'
+[0.740s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ela2_py_arms) by extensions ['ros']
+[0.740s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ela2_py_arms) by extension 'ros'
+[0.743s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/ela2_py_arms' with type 'ros.ament_python' and name 'ela2_py_arms'[0m
+[0.743s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/esp32_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.743s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/esp32_controller) by extension 'ignore'
+[0.743s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/esp32_controller) by extension 'ignore_ament_install'
+[0.743s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/esp32_controller) by extensions ['colcon_pkg']
+[0.743s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/esp32_controller) by extension 'colcon_pkg'
+[0.743s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/esp32_controller) by extensions ['colcon_meta']
+[0.744s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/esp32_controller) by extension 'colcon_meta'
+[0.744s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/esp32_controller) by extensions ['ros']
+[0.744s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/esp32_controller) by extension 'ros'
+[0.745s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/esp32_controller' with type 'ros.ament_python' and name 'esp32_controller'[0m
+[0.745s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.745s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.746s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.746s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.746s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.801s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.801s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.812s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 26 installed packages in /home/ela2/ELA2.0_NAV/install[0m
+[0.813s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 2 installed packages in /home/ela2/ros2_ws/install[0m
+[0.816s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 406 installed packages in /opt/ros/humble[0m
+[0.820s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.996s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ela2_arms' build argument 'cmake_args' from command line to 'None'
+[0.996s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ela2_arms' build argument 'cmake_target' from command line to 'None'
+[0.996s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ela2_arms' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.996s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ela2_arms' build argument 'cmake_clean_cache' from command line to 'False'
+[0.997s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ela2_arms' build argument 'cmake_clean_first' from command line to 'False'
+[0.997s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ela2_arms' build argument 'cmake_force_configure' from command line to 'False'
+[0.997s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ela2_arms' build argument 'ament_cmake_args' from command line to 'None'
+[0.997s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ela2_arms' build argument 'catkin_cmake_args' from command line to 'None'
+[0.997s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ela2_arms' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.997s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'ela2_arms' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ela2/ros2_ws_arms/build/ela2_arms', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ela2/ros2_ws_arms/install/ela2_arms', 'merge_install': False, 'path': '/home/ela2/ros2_ws_arms/src/ela2_arms', 'symlink_install': False, 'test_result_base': None}[0m
+[0.998s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ela2_arms_controller' build argument 'cmake_args' from command line to 'None'
+[0.998s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ela2_arms_controller' build argument 'cmake_target' from command line to 'None'
+[0.998s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ela2_arms_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.998s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ela2_arms_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.998s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ela2_arms_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.998s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ela2_arms_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.998s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ela2_arms_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.998s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ela2_arms_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.998s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ela2_arms_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.998s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'ela2_arms_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ela2/ros2_ws_arms/build/ela2_arms_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ela2/ros2_ws_arms/install/ela2_arms_controller', 'merge_install': False, 'path': '/home/ela2/ros2_ws_arms/src/ela2_arms_controller', 'symlink_install': False, 'test_result_base': None}[0m
+[0.999s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ela2_cpp_arms' build argument 'cmake_args' from command line to 'None'
+[0.999s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ela2_cpp_arms' build argument 'cmake_target' from command line to 'None'
+[0.999s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ela2_cpp_arms' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.999s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ela2_cpp_arms' build argument 'cmake_clean_cache' from command line to 'False'
+[0.999s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ela2_cpp_arms' build argument 'cmake_clean_first' from command line to 'False'
+[0.999s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ela2_cpp_arms' build argument 'cmake_force_configure' from command line to 'False'
+[0.999s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ela2_cpp_arms' build argument 'ament_cmake_args' from command line to 'None'
+[0.999s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ela2_cpp_arms' build argument 'catkin_cmake_args' from command line to 'None'
+[0.999s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ela2_cpp_arms' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.999s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'ela2_cpp_arms' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ela2/ros2_ws_arms/build/ela2_cpp_arms', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ela2/ros2_ws_arms/install/ela2_cpp_arms', 'merge_install': False, 'path': '/home/ela2/ros2_ws_arms/src/ela2_cpp_arms', 'symlink_install': False, 'test_result_base': None}[0m
+[1.000s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ela2_moveit' build argument 'cmake_args' from command line to 'None'
+[1.000s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ela2_moveit' build argument 'cmake_target' from command line to 'None'
+[1.000s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ela2_moveit' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.000s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ela2_moveit' build argument 'cmake_clean_cache' from command line to 'False'
+[1.000s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ela2_moveit' build argument 'cmake_clean_first' from command line to 'False'
+[1.000s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ela2_moveit' build argument 'cmake_force_configure' from command line to 'False'
+[1.000s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ela2_moveit' build argument 'ament_cmake_args' from command line to 'None'
+[1.000s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ela2_moveit' build argument 'catkin_cmake_args' from command line to 'None'
+[1.000s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ela2_moveit' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.000s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'ela2_moveit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ela2/ros2_ws_arms/build/ela2_moveit', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ela2/ros2_ws_arms/install/ela2_moveit', 'merge_install': False, 'path': '/home/ela2/ros2_ws_arms/src/ela2_moveit', 'symlink_install': False, 'test_result_base': None}[0m
+[1.001s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ela2_py_arms' build argument 'cmake_args' from command line to 'None'
+[1.001s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ela2_py_arms' build argument 'cmake_target' from command line to 'None'
+[1.001s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ela2_py_arms' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.001s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ela2_py_arms' build argument 'cmake_clean_cache' from command line to 'False'
+[1.001s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ela2_py_arms' build argument 'cmake_clean_first' from command line to 'False'
+[1.001s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ela2_py_arms' build argument 'cmake_force_configure' from command line to 'False'
+[1.001s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ela2_py_arms' build argument 'ament_cmake_args' from command line to 'None'
+[1.001s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ela2_py_arms' build argument 'catkin_cmake_args' from command line to 'None'
+[1.001s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ela2_py_arms' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.002s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'ela2_py_arms' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ela2/ros2_ws_arms/build/ela2_py_arms', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ela2/ros2_ws_arms/install/ela2_py_arms', 'merge_install': False, 'path': '/home/ela2/ros2_ws_arms/src/ela2_py_arms', 'symlink_install': False, 'test_result_base': None}[0m
+[1.002s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'esp32_controller' build argument 'cmake_args' from command line to 'None'
+[1.002s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'esp32_controller' build argument 'cmake_target' from command line to 'None'
+[1.002s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'esp32_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.002s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'esp32_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[1.002s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'esp32_controller' build argument 'cmake_clean_first' from command line to 'False'
+[1.002s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'esp32_controller' build argument 'cmake_force_configure' from command line to 'False'
+[1.002s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'esp32_controller' build argument 'ament_cmake_args' from command line to 'None'
+[1.003s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'esp32_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[1.003s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'esp32_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.003s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'esp32_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ela2/ros2_ws_arms/build/esp32_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ela2/ros2_ws_arms/install/esp32_controller', 'merge_install': False, 'path': '/home/ela2/ros2_ws_arms/src/esp32_controller', 'symlink_install': False, 'test_result_base': None}[0m
+[1.003s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[1.005s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[1.006s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/ela2/ros2_ws_arms/src/ela2_arms' with build type 'ament_cmake'
+[1.006s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/ela2/ros2_ws_arms/src/ela2_arms'
+[1.018s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.019s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.019s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.064s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/ela2/ros2_ws_arms/src/ela2_arms_controller' with build type 'ament_cmake'
+[1.065s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/ela2/ros2_ws_arms/src/ela2_arms_controller'
+[1.065s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.066s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.077s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/ela2/ros2_ws_arms/src/ela2_cpp_arms' with build type 'ament_cmake'
+[1.078s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/ela2/ros2_ws_arms/src/ela2_cpp_arms'
+[1.078s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.078s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.092s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/ela2/ros2_ws_arms/src/ela2_moveit' with build type 'ament_cmake'
+[1.093s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/ela2/ros2_ws_arms/src/ela2_moveit'
+[1.094s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.094s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.107s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/ela2/ros2_ws_arms/src/ela2_py_arms' with build type 'ament_python'
+[1.108s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ela2_py_arms', 'ament_prefix_path')
+[1.108s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ela2/ros2_ws_arms/install/ela2_py_arms/share/ela2_py_arms/hook/ament_prefix_path.ps1'
+[1.113s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ela2/ros2_ws_arms/install/ela2_py_arms/share/ela2_py_arms/hook/ament_prefix_path.dsv'
+[1.114s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ela2/ros2_ws_arms/install/ela2_py_arms/share/ela2_py_arms/hook/ament_prefix_path.sh'
+[1.117s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.117s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.130s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/ela2/ros2_ws_arms/src/esp32_controller' with build type 'ament_python'
+[1.131s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('esp32_controller', 'ament_prefix_path')
+[1.131s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ela2/ros2_ws_arms/install/esp32_controller/share/esp32_controller/hook/ament_prefix_path.ps1'
+[1.134s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ela2/ros2_ws_arms/install/esp32_controller/share/esp32_controller/hook/ament_prefix_path.dsv'
+[1.135s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ela2/ros2_ws_arms/install/esp32_controller/share/esp32_controller/hook/ament_prefix_path.sh'
+[1.137s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.137s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.164s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ela2/ros2_ws_arms/build/ela2_arms': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ela2/ELA2.0_NAV/install/rtabmap_python:/home/ela2/ELA2.0_NAV/install/ella2_twist_converter:/home/ela2/ELA2.0_NAV/install/ella2_teleop:/home/ela2/ELA2.0_NAV/install/ella2_pose:/home/ela2/ELA2.0_NAV/install/ella2_gui:/opt/ros/humble NX_CONNECTION=192.168.0.101 44502 192.168.0.106 4000 /usr/bin/cmake --build /home/ela2/ros2_ws_arms/build/ela2_arms -- -j6 -l6[0m
+[1.213s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ela2/ros2_ws_arms/build/ela2_arms_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ela2/ELA2.0_NAV/install/rtabmap_python:/home/ela2/ELA2.0_NAV/install/ella2_twist_converter:/home/ela2/ELA2.0_NAV/install/ella2_teleop:/home/ela2/ELA2.0_NAV/install/ella2_pose:/home/ela2/ELA2.0_NAV/install/ella2_gui:/opt/ros/humble NX_CONNECTION=192.168.0.101 44502 192.168.0.106 4000 /usr/bin/cmake --build /home/ela2/ros2_ws_arms/build/ela2_arms_controller -- -j6 -l6[0m
+[1.225s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ela2/ros2_ws_arms/build/ela2_cpp_arms': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ela2/ELA2.0_NAV/install/rtabmap_python:/home/ela2/ELA2.0_NAV/install/ella2_twist_converter:/home/ela2/ELA2.0_NAV/install/ella2_teleop:/home/ela2/ELA2.0_NAV/install/ella2_pose:/home/ela2/ELA2.0_NAV/install/ella2_gui:/opt/ros/humble NX_CONNECTION=192.168.0.101 44502 192.168.0.106 4000 /usr/bin/cmake --build /home/ela2/ros2_ws_arms/build/ela2_cpp_arms -- -j6 -l6[0m
+[1.242s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ela2/ros2_ws_arms/build/ela2_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ela2/ELA2.0_NAV/install/rtabmap_python:/home/ela2/ELA2.0_NAV/install/ella2_twist_converter:/home/ela2/ELA2.0_NAV/install/ella2_teleop:/home/ela2/ELA2.0_NAV/install/ella2_pose:/home/ela2/ELA2.0_NAV/install/ella2_gui:/opt/ros/humble NX_CONNECTION=192.168.0.101 44502 192.168.0.106 4000 /usr/bin/cmake --build /home/ela2/ros2_ws_arms/build/ela2_moveit -- -j6 -l6[0m
+[1.892s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/ela2/ros2_ws_arms/src/ela2_py_arms'
+[1.893s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.893s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[2.449s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/ela2/ros2_ws_arms/src/esp32_controller'
+[2.450s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.450s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[2.494s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ela2/ros2_ws_arms/build/ela2_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ela2/ELA2.0_NAV/install/rtabmap_python:/home/ela2/ELA2.0_NAV/install/ella2_twist_converter:/home/ela2/ELA2.0_NAV/install/ella2_teleop:/home/ela2/ELA2.0_NAV/install/ella2_pose:/home/ela2/ELA2.0_NAV/install/ella2_gui:/opt/ros/humble NX_CONNECTION=192.168.0.101 44502 192.168.0.106 4000 /usr/bin/cmake --build /home/ela2/ros2_ws_arms/build/ela2_moveit -- -j6 -l6[0m
+[2.495s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ela2/ros2_ws_arms/build/ela2_arms_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ela2/ELA2.0_NAV/install/rtabmap_python:/home/ela2/ELA2.0_NAV/install/ella2_twist_converter:/home/ela2/ELA2.0_NAV/install/ella2_teleop:/home/ela2/ELA2.0_NAV/install/ella2_pose:/home/ela2/ELA2.0_NAV/install/ella2_gui:/opt/ros/humble NX_CONNECTION=192.168.0.101 44502 192.168.0.106 4000 /usr/bin/cmake --build /home/ela2/ros2_ws_arms/build/ela2_arms_controller -- -j6 -l6[0m
+[2.496s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ela2/ros2_ws_arms/build/ela2_cpp_arms' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ela2/ELA2.0_NAV/install/rtabmap_python:/home/ela2/ELA2.0_NAV/install/ella2_twist_converter:/home/ela2/ELA2.0_NAV/install/ella2_teleop:/home/ela2/ELA2.0_NAV/install/ella2_pose:/home/ela2/ELA2.0_NAV/install/ella2_gui:/opt/ros/humble NX_CONNECTION=192.168.0.101 44502 192.168.0.106 4000 /usr/bin/cmake --build /home/ela2/ros2_ws_arms/build/ela2_cpp_arms -- -j6 -l6[0m
+[2.497s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ela2/ros2_ws_arms/build/ela2_arms' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ela2/ELA2.0_NAV/install/rtabmap_python:/home/ela2/ELA2.0_NAV/install/ella2_twist_converter:/home/ela2/ELA2.0_NAV/install/ella2_teleop:/home/ela2/ELA2.0_NAV/install/ella2_pose:/home/ela2/ELA2.0_NAV/install/ella2_gui:/opt/ros/humble NX_CONNECTION=192.168.0.101 44502 192.168.0.106 4000 /usr/bin/cmake --build /home/ela2/ros2_ws_arms/build/ela2_arms -- -j6 -l6[0m
+[2.549s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ela2/ros2_ws_arms/build/ela2_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ela2/ELA2.0_NAV/install/rtabmap_python:/home/ela2/ELA2.0_NAV/install/ella2_twist_converter:/home/ela2/ELA2.0_NAV/install/ella2_teleop:/home/ela2/ELA2.0_NAV/install/ella2_pose:/home/ela2/ELA2.0_NAV/install/ella2_gui:/opt/ros/humble NX_CONNECTION=192.168.0.101 44502 192.168.0.106 4000 /usr/bin/cmake --install /home/ela2/ros2_ws_arms/build/ela2_moveit[0m
+[2.565s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ela2/ros2_ws_arms/build/ela2_cpp_arms': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ela2/ELA2.0_NAV/install/rtabmap_python:/home/ela2/ELA2.0_NAV/install/ella2_twist_converter:/home/ela2/ELA2.0_NAV/install/ella2_teleop:/home/ela2/ELA2.0_NAV/install/ella2_pose:/home/ela2/ELA2.0_NAV/install/ella2_gui:/opt/ros/humble NX_CONNECTION=192.168.0.101 44502 192.168.0.106 4000 /usr/bin/cmake --install /home/ela2/ros2_ws_arms/build/ela2_cpp_arms[0m
+[2.567s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ela2/ros2_ws_arms/build/ela2_arms_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ela2/ELA2.0_NAV/install/rtabmap_python:/home/ela2/ELA2.0_NAV/install/ella2_twist_converter:/home/ela2/ELA2.0_NAV/install/ella2_teleop:/home/ela2/ELA2.0_NAV/install/ella2_pose:/home/ela2/ELA2.0_NAV/install/ella2_gui:/opt/ros/humble NX_CONNECTION=192.168.0.101 44502 192.168.0.106 4000 /usr/bin/cmake --install /home/ela2/ros2_ws_arms/build/ela2_arms_controller[0m
+[2.571s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ela2/ros2_ws_arms/build/ela2_arms': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ela2/ELA2.0_NAV/install/rtabmap_python:/home/ela2/ELA2.0_NAV/install/ella2_twist_converter:/home/ela2/ELA2.0_NAV/install/ella2_teleop:/home/ela2/ELA2.0_NAV/install/ella2_pose:/home/ela2/ELA2.0_NAV/install/ella2_gui:/opt/ros/humble NX_CONNECTION=192.168.0.101 44502 192.168.0.106 4000 /usr/bin/cmake --install /home/ela2/ros2_ws_arms/build/ela2_arms[0m
+[2.593s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(ela2_moveit)
+[2.604s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ela2/ros2_ws_arms/build/ela2_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ela2/ELA2.0_NAV/install/rtabmap_python:/home/ela2/ELA2.0_NAV/install/ella2_twist_converter:/home/ela2/ELA2.0_NAV/install/ella2_teleop:/home/ela2/ELA2.0_NAV/install/ella2_pose:/home/ela2/ELA2.0_NAV/install/ella2_gui:/opt/ros/humble NX_CONNECTION=192.168.0.101 44502 192.168.0.106 4000 /usr/bin/cmake --install /home/ela2/ros2_ws_arms/build/ela2_moveit[0m
+[2.617s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ela2/ros2_ws_arms/install/ela2_moveit' for CMake module files
+[2.618s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ela2/ros2_ws_arms/install/ela2_moveit' for CMake config files
+[2.620s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ela2_moveit', 'cmake_prefix_path')
+[2.620s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ela2/ros2_ws_arms/install/ela2_moveit/share/ela2_moveit/hook/cmake_prefix_path.ps1'
+[2.622s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ela2/ros2_ws_arms/install/ela2_moveit/share/ela2_moveit/hook/cmake_prefix_path.dsv'
+[2.623s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ela2/ros2_ws_arms/install/ela2_moveit/share/ela2_moveit/hook/cmake_prefix_path.sh'
+[2.625s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ela2/ros2_ws_arms/install/ela2_moveit/bin'
+[2.625s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ela2/ros2_ws_arms/install/ela2_moveit/lib/pkgconfig/ela2_moveit.pc'
+[2.626s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ela2/ros2_ws_arms/install/ela2_moveit/lib/python3.10/site-packages'
+[2.627s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ela2/ros2_ws_arms/install/ela2_moveit/bin'
+[2.627s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ela2/ros2_ws_arms/install/ela2_moveit/share/ela2_moveit/package.ps1'
+[2.631s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ela2/ros2_ws_arms/install/ela2_moveit/share/ela2_moveit/package.dsv'
+[2.633s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ela2/ros2_ws_arms/install/ela2_moveit/share/ela2_moveit/package.sh'
+[2.636s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ela2/ros2_ws_arms/install/ela2_moveit/share/ela2_moveit/package.bash'
+[2.639s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ela2/ros2_ws_arms/install/ela2_moveit/share/ela2_moveit/package.zsh'
+[2.641s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ela2/ros2_ws_arms/install/ela2_moveit/share/colcon-core/packages/ela2_moveit)
+[2.645s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(ela2_cpp_arms)
+[2.646s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ela2/ros2_ws_arms/install/ela2_cpp_arms' for CMake module files
+[2.647s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ela2/ros2_ws_arms/build/ela2_cpp_arms' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ela2/ELA2.0_NAV/install/rtabmap_python:/home/ela2/ELA2.0_NAV/install/ella2_twist_converter:/home/ela2/ELA2.0_NAV/install/ella2_teleop:/home/ela2/ELA2.0_NAV/install/ella2_pose:/home/ela2/ELA2.0_NAV/install/ella2_gui:/opt/ros/humble NX_CONNECTION=192.168.0.101 44502 192.168.0.106 4000 /usr/bin/cmake --install /home/ela2/ros2_ws_arms/build/ela2_cpp_arms[0m
+[2.648s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ela2/ros2_ws_arms/install/ela2_cpp_arms' for CMake config files
+[2.650s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ela2_cpp_arms', 'cmake_prefix_path')
+[2.650s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ela2/ros2_ws_arms/install/ela2_cpp_arms/share/ela2_cpp_arms/hook/cmake_prefix_path.ps1'
+[2.652s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ela2/ros2_ws_arms/install/ela2_cpp_arms/share/ela2_cpp_arms/hook/cmake_prefix_path.dsv'
+[2.653s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ela2/ros2_ws_arms/install/ela2_cpp_arms/share/ela2_cpp_arms/hook/cmake_prefix_path.sh'
+[2.654s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ela2/ros2_ws_arms/install/ela2_cpp_arms/bin'
+[2.654s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ela2/ros2_ws_arms/install/ela2_cpp_arms/lib/pkgconfig/ela2_cpp_arms.pc'
+[2.655s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ela2/ros2_ws_arms/install/ela2_cpp_arms/lib/python3.10/site-packages'
+[2.660s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ela2/ros2_ws_arms/install/ela2_cpp_arms/bin'
+[2.661s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ela2/ros2_ws_arms/install/ela2_cpp_arms/share/ela2_cpp_arms/package.ps1'
+[2.663s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ela2/ros2_ws_arms/install/ela2_cpp_arms/share/ela2_cpp_arms/package.dsv'
+[2.664s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ela2/ros2_ws_arms/install/ela2_cpp_arms/share/ela2_cpp_arms/package.sh'
+[2.666s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ela2/ros2_ws_arms/install/ela2_cpp_arms/share/ela2_cpp_arms/package.bash'
+[2.667s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ela2/ros2_ws_arms/install/ela2_cpp_arms/share/ela2_cpp_arms/package.zsh'
+[2.669s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ela2/ros2_ws_arms/install/ela2_cpp_arms/share/colcon-core/packages/ela2_cpp_arms)
+[2.678s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(ela2_arms_controller)
+[2.679s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ela2/ros2_ws_arms/install/ela2_arms_controller' for CMake module files
+[2.680s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ela2/ros2_ws_arms/build/ela2_arms_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ela2/ELA2.0_NAV/install/rtabmap_python:/home/ela2/ELA2.0_NAV/install/ella2_twist_converter:/home/ela2/ELA2.0_NAV/install/ella2_teleop:/home/ela2/ELA2.0_NAV/install/ella2_pose:/home/ela2/ELA2.0_NAV/install/ella2_gui:/opt/ros/humble NX_CONNECTION=192.168.0.101 44502 192.168.0.106 4000 /usr/bin/cmake --install /home/ela2/ros2_ws_arms/build/ela2_arms_controller[0m
+[2.681s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ela2/ros2_ws_arms/install/ela2_arms_controller' for CMake config files
+[2.685s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ela2_arms_controller', 'cmake_prefix_path')
+[2.685s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ela2/ros2_ws_arms/install/ela2_arms_controller/share/ela2_arms_controller/hook/cmake_prefix_path.ps1'
+[2.687s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ela2/ros2_ws_arms/install/ela2_arms_controller/share/ela2_arms_controller/hook/cmake_prefix_path.dsv'
+[2.688s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ela2/ros2_ws_arms/install/ela2_arms_controller/share/ela2_arms_controller/hook/cmake_prefix_path.sh'
+[2.689s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ela2/ros2_ws_arms/install/ela2_arms_controller/bin'
+[2.689s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ela2/ros2_ws_arms/install/ela2_arms_controller/lib/pkgconfig/ela2_arms_controller.pc'
+[2.690s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ela2/ros2_ws_arms/install/ela2_arms_controller/lib/python3.10/site-packages'
+[2.690s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ela2/ros2_ws_arms/install/ela2_arms_controller/bin'
+[2.691s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ela2/ros2_ws_arms/install/ela2_arms_controller/share/ela2_arms_controller/package.ps1'
+[2.692s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ela2/ros2_ws_arms/install/ela2_arms_controller/share/ela2_arms_controller/package.dsv'
+[2.693s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ela2/ros2_ws_arms/install/ela2_arms_controller/share/ela2_arms_controller/package.sh'
+[2.694s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ela2/ros2_ws_arms/install/ela2_arms_controller/share/ela2_arms_controller/package.bash'
+[2.695s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ela2/ros2_ws_arms/install/ela2_arms_controller/share/ela2_arms_controller/package.zsh'
+[2.696s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ela2/ros2_ws_arms/install/ela2_arms_controller/share/colcon-core/packages/ela2_arms_controller)
+[2.699s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(ela2_arms)
+[2.700s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ela2/ros2_ws_arms/install/ela2_arms' for CMake module files
+[2.701s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ela2/ros2_ws_arms/build/ela2_arms' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ela2/ELA2.0_NAV/install/rtabmap_python:/home/ela2/ELA2.0_NAV/install/ella2_twist_converter:/home/ela2/ELA2.0_NAV/install/ella2_teleop:/home/ela2/ELA2.0_NAV/install/ella2_pose:/home/ela2/ELA2.0_NAV/install/ella2_gui:/opt/ros/humble NX_CONNECTION=192.168.0.101 44502 192.168.0.106 4000 /usr/bin/cmake --install /home/ela2/ros2_ws_arms/build/ela2_arms[0m
+[2.702s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ela2/ros2_ws_arms/install/ela2_arms' for CMake config files
+[2.703s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ela2_arms', 'cmake_prefix_path')
+[2.703s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/hook/cmake_prefix_path.ps1'
+[2.705s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/hook/cmake_prefix_path.dsv'
+[2.706s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/hook/cmake_prefix_path.sh'
+[2.707s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ela2/ros2_ws_arms/install/ela2_arms/bin'
+[2.707s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ela2/ros2_ws_arms/install/ela2_arms/lib/pkgconfig/ela2_arms.pc'
+[2.709s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ela2/ros2_ws_arms/install/ela2_arms/lib/python3.10/site-packages'
+[2.709s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ela2/ros2_ws_arms/install/ela2_arms/bin'
+[2.710s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/package.ps1'
+[2.711s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/package.dsv'
+[2.712s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/package.sh'
+[2.713s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/package.bash'
+[2.714s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/package.zsh'
+[2.715s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ela2/ros2_ws_arms/install/ela2_arms/share/colcon-core/packages/ela2_arms)
+[2.719s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(ela2_moveit)
+[2.720s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ela2/ros2_ws_arms/install/ela2_moveit' for CMake module files
+[2.721s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ela2/ros2_ws_arms/install/ela2_moveit' for CMake config files
+[2.721s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ela2_moveit', 'cmake_prefix_path')
+[2.722s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ela2/ros2_ws_arms/install/ela2_moveit/share/ela2_moveit/hook/cmake_prefix_path.ps1'
+[2.723s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ela2/ros2_ws_arms/install/ela2_moveit/share/ela2_moveit/hook/cmake_prefix_path.dsv'
+[2.724s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ela2/ros2_ws_arms/install/ela2_moveit/share/ela2_moveit/hook/cmake_prefix_path.sh'
+[2.725s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ela2/ros2_ws_arms/install/ela2_moveit/bin'
+[2.726s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ela2/ros2_ws_arms/install/ela2_moveit/lib/pkgconfig/ela2_moveit.pc'
+[2.726s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ela2/ros2_ws_arms/install/ela2_moveit/lib/python3.10/site-packages'
+[2.726s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ela2/ros2_ws_arms/install/ela2_moveit/bin'
+[2.727s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ela2/ros2_ws_arms/install/ela2_moveit/share/ela2_moveit/package.ps1'
+[2.729s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ela2/ros2_ws_arms/install/ela2_moveit/share/ela2_moveit/package.dsv'
+[2.730s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ela2/ros2_ws_arms/install/ela2_moveit/share/ela2_moveit/package.sh'
+[2.731s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ela2/ros2_ws_arms/install/ela2_moveit/share/ela2_moveit/package.bash'
+[2.732s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ela2/ros2_ws_arms/install/ela2_moveit/share/ela2_moveit/package.zsh'
+[2.733s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ela2/ros2_ws_arms/install/ela2_moveit/share/colcon-core/packages/ela2_moveit)
+[2.736s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(ela2_cpp_arms)
+[2.737s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ela2/ros2_ws_arms/install/ela2_cpp_arms' for CMake module files
+[2.738s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ela2/ros2_ws_arms/install/ela2_cpp_arms' for CMake config files
+[2.738s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ela2_cpp_arms', 'cmake_prefix_path')
+[2.739s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ela2/ros2_ws_arms/install/ela2_cpp_arms/share/ela2_cpp_arms/hook/cmake_prefix_path.ps1'
+[2.740s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ela2/ros2_ws_arms/install/ela2_cpp_arms/share/ela2_cpp_arms/hook/cmake_prefix_path.dsv'
+[2.741s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ela2/ros2_ws_arms/install/ela2_cpp_arms/share/ela2_cpp_arms/hook/cmake_prefix_path.sh'
+[2.742s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ela2/ros2_ws_arms/install/ela2_cpp_arms/bin'
+[2.742s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ela2/ros2_ws_arms/install/ela2_cpp_arms/lib/pkgconfig/ela2_cpp_arms.pc'
+[2.743s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ela2/ros2_ws_arms/install/ela2_cpp_arms/lib/python3.10/site-packages'
+[2.743s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ela2/ros2_ws_arms/install/ela2_cpp_arms/bin'
+[2.744s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ela2/ros2_ws_arms/install/ela2_cpp_arms/share/ela2_cpp_arms/package.ps1'
+[2.745s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ela2/ros2_ws_arms/install/ela2_cpp_arms/share/ela2_cpp_arms/package.dsv'
+[2.748s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ela2/ros2_ws_arms/install/ela2_cpp_arms/share/ela2_cpp_arms/package.sh'
+[2.749s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ela2/ros2_ws_arms/install/ela2_cpp_arms/share/ela2_cpp_arms/package.bash'
+[2.750s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ela2/ros2_ws_arms/install/ela2_cpp_arms/share/ela2_cpp_arms/package.zsh'
+[2.751s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ela2/ros2_ws_arms/install/ela2_cpp_arms/share/colcon-core/packages/ela2_cpp_arms)
+[2.754s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(ela2_arms_controller)
+[2.754s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ela2/ros2_ws_arms/install/ela2_arms_controller' for CMake module files
+[2.755s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ela2/ros2_ws_arms/install/ela2_arms_controller' for CMake config files
+[2.756s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ela2_arms_controller', 'cmake_prefix_path')
+[2.756s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ela2/ros2_ws_arms/install/ela2_arms_controller/share/ela2_arms_controller/hook/cmake_prefix_path.ps1'
+[2.757s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ela2/ros2_ws_arms/install/ela2_arms_controller/share/ela2_arms_controller/hook/cmake_prefix_path.dsv'
+[2.758s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ela2/ros2_ws_arms/install/ela2_arms_controller/share/ela2_arms_controller/hook/cmake_prefix_path.sh'
+[2.760s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ela2/ros2_ws_arms/install/ela2_arms_controller/bin'
+[2.760s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ela2/ros2_ws_arms/install/ela2_arms_controller/lib/pkgconfig/ela2_arms_controller.pc'
+[2.761s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ela2/ros2_ws_arms/install/ela2_arms_controller/lib/python3.10/site-packages'
+[2.761s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ela2/ros2_ws_arms/install/ela2_arms_controller/bin'
+[2.762s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ela2/ros2_ws_arms/install/ela2_arms_controller/share/ela2_arms_controller/package.ps1'
+[2.766s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ela2/ros2_ws_arms/install/ela2_arms_controller/share/ela2_arms_controller/package.dsv'
+[2.767s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ela2/ros2_ws_arms/install/ela2_arms_controller/share/ela2_arms_controller/package.sh'
+[2.768s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ela2/ros2_ws_arms/install/ela2_arms_controller/share/ela2_arms_controller/package.bash'
+[2.769s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ela2/ros2_ws_arms/install/ela2_arms_controller/share/ela2_arms_controller/package.zsh'
+[2.770s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ela2/ros2_ws_arms/install/ela2_arms_controller/share/colcon-core/packages/ela2_arms_controller)
+[2.776s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(ela2_arms)
+[2.777s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ela2/ros2_ws_arms/install/ela2_arms' for CMake module files
+[2.778s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ela2/ros2_ws_arms/install/ela2_arms' for CMake config files
+[2.778s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ela2_arms', 'cmake_prefix_path')
+[2.779s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/hook/cmake_prefix_path.ps1'
+[2.780s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/hook/cmake_prefix_path.dsv'
+[2.781s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/hook/cmake_prefix_path.sh'
+[2.782s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ela2/ros2_ws_arms/install/ela2_arms/bin'
+[2.783s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ela2/ros2_ws_arms/install/ela2_arms/lib/pkgconfig/ela2_arms.pc'
+[2.783s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ela2/ros2_ws_arms/install/ela2_arms/lib/python3.10/site-packages'
+[2.783s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ela2/ros2_ws_arms/install/ela2_arms/bin'
+[2.784s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/package.ps1'
+[2.785s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/package.dsv'
+[2.786s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/package.sh'
+[2.787s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/package.bash'
+[2.788s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/package.zsh'
+[2.789s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ela2/ros2_ws_arms/install/ela2_arms/share/colcon-core/packages/ela2_arms)
+[4.544s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ela2/ros2_ws_arms/src/ela2_py_arms': NX_CONNECTION=192.168.0.101 44502 192.168.0.106 4000 PYTHONPATH=/home/ela2/ros2_ws_arms/build/ela2_py_arms/prefix_override:/home/ela2/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/ela2/ros2_ws_arms/install/ela2_py_arms/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ela2_py_arms build --build-base /home/ela2/ros2_ws_arms/build/ela2_py_arms/build install --record /home/ela2/ros2_ws_arms/build/ela2_py_arms/install.log --single-version-externally-managed install_data[0m
+[4.553s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ela2/ros2_ws_arms/src/esp32_controller': NX_CONNECTION=192.168.0.101 44502 192.168.0.106 4000 PYTHONPATH=/home/ela2/ros2_ws_arms/build/esp32_controller/prefix_override:/home/ela2/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/ela2/ros2_ws_arms/install/esp32_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/esp32_controller build --build-base /home/ela2/ros2_ws_arms/build/esp32_controller/build install --record /home/ela2/ros2_ws_arms/build/esp32_controller/install.log --single-version-externally-managed install_data[0m
+[5.925s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ela2/ros2_ws_arms/install/ela2_py_arms' for CMake module files
+[5.927s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ela2/ros2_ws_arms/src/ela2_py_arms' returned '0': NX_CONNECTION=192.168.0.101 44502 192.168.0.106 4000 PYTHONPATH=/home/ela2/ros2_ws_arms/build/ela2_py_arms/prefix_override:/home/ela2/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/ela2/ros2_ws_arms/install/ela2_py_arms/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ela2_py_arms build --build-base /home/ela2/ros2_ws_arms/build/ela2_py_arms/build install --record /home/ela2/ros2_ws_arms/build/ela2_py_arms/install.log --single-version-externally-managed install_data[0m
+[5.928s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ela2/ros2_ws_arms/install/ela2_py_arms' for CMake config files
+[5.932s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ela2/ros2_ws_arms/install/ela2_py_arms/lib'
+[5.934s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ela2/ros2_ws_arms/install/ela2_py_arms/bin'
+[5.934s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ela2/ros2_ws_arms/install/ela2_py_arms/lib/pkgconfig/ela2_py_arms.pc'
+[5.935s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ela2/ros2_ws_arms/install/ela2_py_arms/lib/python3.10/site-packages'
+[5.935s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ela2_py_arms', 'pythonpath')
+[5.936s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ela2/ros2_ws_arms/install/ela2_py_arms/share/ela2_py_arms/hook/pythonpath.ps1'
+[5.938s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ela2/ros2_ws_arms/install/ela2_py_arms/share/ela2_py_arms/hook/pythonpath.dsv'
+[5.940s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ela2/ros2_ws_arms/install/ela2_py_arms/share/ela2_py_arms/hook/pythonpath.sh'
+[5.942s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ela2/ros2_ws_arms/install/ela2_py_arms/bin'
+[5.943s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(ela2_py_arms)
+[5.944s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ela2/ros2_ws_arms/install/ela2_py_arms/share/ela2_py_arms/package.ps1'
+[5.946s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ela2/ros2_ws_arms/install/ela2_py_arms/share/ela2_py_arms/package.dsv'
+[5.948s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ela2/ros2_ws_arms/install/ela2_py_arms/share/ela2_py_arms/package.sh'
+[5.949s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ela2/ros2_ws_arms/install/ela2_py_arms/share/ela2_py_arms/package.bash'
+[5.951s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ela2/ros2_ws_arms/install/ela2_py_arms/share/ela2_py_arms/package.zsh'
+[5.952s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ela2/ros2_ws_arms/install/ela2_py_arms/share/colcon-core/packages/ela2_py_arms)
+[5.956s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ela2/ros2_ws_arms/install/esp32_controller' for CMake module files
+[5.959s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ela2/ros2_ws_arms/src/esp32_controller' returned '0': NX_CONNECTION=192.168.0.101 44502 192.168.0.106 4000 PYTHONPATH=/home/ela2/ros2_ws_arms/build/esp32_controller/prefix_override:/home/ela2/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/ela2/ros2_ws_arms/install/esp32_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/esp32_controller build --build-base /home/ela2/ros2_ws_arms/build/esp32_controller/build install --record /home/ela2/ros2_ws_arms/build/esp32_controller/install.log --single-version-externally-managed install_data[0m
+[5.960s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ela2/ros2_ws_arms/install/esp32_controller' for CMake config files
+[5.962s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ela2/ros2_ws_arms/install/esp32_controller/lib'
+[5.963s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ela2/ros2_ws_arms/install/esp32_controller/bin'
+[5.963s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ela2/ros2_ws_arms/install/esp32_controller/lib/pkgconfig/esp32_controller.pc'
+[5.964s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ela2/ros2_ws_arms/install/esp32_controller/lib/python3.10/site-packages'
+[5.964s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('esp32_controller', 'pythonpath')
+[5.965s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ela2/ros2_ws_arms/install/esp32_controller/share/esp32_controller/hook/pythonpath.ps1'
+[5.967s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ela2/ros2_ws_arms/install/esp32_controller/share/esp32_controller/hook/pythonpath.dsv'
+[5.968s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ela2/ros2_ws_arms/install/esp32_controller/share/esp32_controller/hook/pythonpath.sh'
+[5.970s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ela2/ros2_ws_arms/install/esp32_controller/bin'
+[5.971s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(esp32_controller)
+[5.972s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ela2/ros2_ws_arms/install/esp32_controller/share/esp32_controller/package.ps1'
+[5.975s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ela2/ros2_ws_arms/install/esp32_controller/share/esp32_controller/package.dsv'
+[5.976s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ela2/ros2_ws_arms/install/esp32_controller/share/esp32_controller/package.sh'
+[5.978s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ela2/ros2_ws_arms/install/esp32_controller/share/esp32_controller/package.bash'
+[5.980s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ela2/ros2_ws_arms/install/esp32_controller/share/esp32_controller/package.zsh'
+[5.983s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ela2/ros2_ws_arms/install/esp32_controller/share/colcon-core/packages/esp32_controller)
+[5.984s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[5.985s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[5.987s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[5.987s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[6.007s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.008s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.008s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[6.074s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[6.075s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/ela2/ros2_ws_arms/install/local_setup.ps1'
+[6.079s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/ela2/ros2_ws_arms/install/_local_setup_util_ps1.py'
+[6.083s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/ela2/ros2_ws_arms/install/setup.ps1'
+[6.090s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/ela2/ros2_ws_arms/install/local_setup.sh'
+[6.093s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/ela2/ros2_ws_arms/install/_local_setup_util_sh.py'
+[6.094s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/ela2/ros2_ws_arms/install/setup.sh'
+[6.101s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/ela2/ros2_ws_arms/install/local_setup.bash'
+[6.103s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/ela2/ros2_ws_arms/install/setup.bash'
+[6.109s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/ela2/ros2_ws_arms/install/local_setup.zsh'
+[6.111s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/ela2/ros2_ws_arms/install/setup.zsh'

@@ -1,0 +1,23 @@
+/home/ela2/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running egg_info
+writing ../../build/ela2_py_arms/ela2_py_arms.egg-info/PKG-INFO
+writing dependency_links to ../../build/ela2_py_arms/ela2_py_arms.egg-info/dependency_links.txt
+writing entry points to ../../build/ela2_py_arms/ela2_py_arms.egg-info/entry_points.txt
+writing requirements to ../../build/ela2_py_arms/ela2_py_arms.egg-info/requires.txt
+writing top-level names to ../../build/ela2_py_arms/ela2_py_arms.egg-info/top_level.txt
+reading manifest file '../../build/ela2_py_arms/ela2_py_arms.egg-info/SOURCES.txt'
+writing manifest file '../../build/ela2_py_arms/ela2_py_arms.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/ela2/ros2_ws_arms/install/ela2_py_arms/lib/python3.10/site-packages/ela2_py_arms-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/ela2_py_arms/ela2_py_arms.egg-info to /home/ela2/ros2_ws_arms/install/ela2_py_arms/lib/python3.10/site-packages/ela2_py_arms-0.0.0-py3.10.egg-info
+running install_scripts
+Installing simple_parameter script to /home/ela2/ros2_ws_arms/install/ela2_py_arms/lib/ela2_py_arms
+Installing simple_publisher script to /home/ela2/ros2_ws_arms/install/ela2_py_arms/lib/ela2_py_arms
+Installing simple_subs script to /home/ela2/ros2_ws_arms/install/ela2_py_arms/lib/ela2_py_arms
+writing list of installed files to '/home/ela2/ros2_ws_arms/build/ela2_py_arms/install.log'

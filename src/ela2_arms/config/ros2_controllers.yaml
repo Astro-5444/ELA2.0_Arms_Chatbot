@@ -1,0 +1,29 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 50
+
+left_arm_controller:
+  action_ns: follow_joint_trajectory
+  type: FollowJointTrajectory
+  default: True
+  joints:
+    - left_upper_arm_y_joint
+    - left_upper_arm_x_joint
+    - left_forearm_z_joint
+    - left_forearm_x_joint
+    - left_finger_joint
+
+
+right_arm_controller:
+  action_ns: follow_joint_trajectory
+  type: FollowJointTrajectory
+  default: True
+  joints:
+    - right_upper_arm_y_joint
+    - right_upper_arm_x_joint
+    - right_forearm_z_joint
+    - right_forearm_x_joint
+    - right_finger_joint
+
+  joint_state_broadcaster:
+    type: "joint_state_broadcaster/JointStateBroadcaster"

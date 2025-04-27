@@ -1,0 +1,490 @@
+{
+    "global_speed_factor": 2.0,
+    "actions": {
+        "Hello": {
+            "name": "Hello",
+            "arm": "left",
+            "steps": [
+                {
+                    "positions": [
+                        1.26,
+                        -1.17,
+                        0.0,
+                        -0.33,
+                        0.0
+                    ],
+                    "duration": 10.5,
+                    "type": "moving"
+                },
+                {
+                    "positions": [
+                        1.26,
+                        -1.17,
+                        0.0,
+                        -1.1,
+                        0.0
+                    ],
+                    "duration": 10.5,
+                    "type": "moving"
+                },
+                {
+                    "positions": [
+                        1.26,
+                        -1.17,
+                        0.0,
+                        -0.33,
+                        0.0
+                    ],
+                    "duration": 10.5,
+                    "type": "moving"
+                },
+                {
+                    "positions": [
+                        1.26,
+                        -1.17,
+                        0.0,
+                        -1.1,
+                        0.0
+                    ],
+                    "duration": 10.5,
+                    "type": "moving"
+                },
+                {
+                    "positions": [
+                        0.0,
+                        0.0,
+                        -0.0,
+                        -0.0,
+                        0.0
+                    ],
+                    "duration": 1.0,
+                    "type": "moving"
+                },
+                {
+                    "positions": [
+                        0.0,
+                        0.0,
+                        -0.0,
+                        -0.0,
+                        0.0
+                    ],
+                    "duration": 1.0,
+                    "type": "moving"
+                }
+            ],
+            "motion_mode": "single",
+            "step_delay": 0.1
+        },
+        "New Hello": {
+            "name": "New Hello",
+            "arm": "left",
+            "steps": [
+                {
+                    "positions": [
+                        0.0,
+                        0.0,
+                        -0.0,
+                        -0.0,
+                        0.0
+                    ],
+                    "duration": 2.0,
+                    "type": "moving"
+                },
+                {
+                    "positions": [
+                        0.0,
+                        0.0,
+                        -0.0,
+                        -0.0,
+                        0.0
+                    ],
+                    "duration": 2.0,
+                    "type": "moving"
+                },
+                {
+                    "positions": [
+                        0.0,
+                        -0.86,
+                        -1.57,
+                        -1.57,
+                        0.0
+                    ],
+                    "duration": 2.0,
+                    "type": "moving"
+                },
+                {
+                    "positions": [
+                        0.0,
+                        -0.86,
+                        1.57,
+                        -1.57,
+                        0.0
+                    ],
+                    "duration": 2.0,
+                    "type": "moving"
+                },
+                {
+                    "positions": [
+                        0.0,
+                        0.0,
+                        -0.0,
+                        -0.0,
+                        0.0
+                    ],
+                    "duration": 2.0,
+                    "type": "moving"
+                }
+            ],
+            "motion_mode": "single",
+            "step_delay": 0.0
+        },
+        "wave_right": {
+            "name": "wave_right",
+            "arm": "right",
+            "steps": [
+                {
+                    "positions": [
+                        -0.12,
+                        -1.2,
+                        1.57,
+                        -1.57,
+                        0.0
+                    ],
+                    "duration": 1.0,
+                    "type": "moving"
+                },
+                {
+                    "positions": [
+                        -0.12,
+                        -1.2,
+                        -1.57,
+                        -1.57,
+                        0.0
+                    ],
+                    "duration": 1.0,
+                    "type": "moving"
+                },
+                {
+                    "positions": [
+                        -0.12,
+                        -1.2,
+                        1.57,
+                        -1.57,
+                        0.0
+                    ],
+                    "duration": 1.0,
+                    "type": "moving"
+                },
+                {
+                    "positions": [
+                        -0.12,
+                        -1.2,
+                        -1.57,
+                        -1.57,
+                        0.0
+                    ],
+                    "duration": 1.0,
+                    "type": "moving"
+                },
+                {
+                    "positions": [
+                        -0.12,
+                        -1.2,
+                        1.57,
+                        -1.57,
+                        0.0
+                    ],
+                    "duration": 1.0,
+                    "type": "moving"
+                },
+                {
+                    "positions": [
+                        -0.12,
+                        -1.2,
+                        -1.57,
+                        -1.57,
+                        0.0
+                    ],
+                    "duration": 1.0,
+                    "type": "moving"
+                },
+                {
+                    "positions": [
+                        0.0,
+                        0.0,
+                        -0.0,
+                        -0.0,
+                        0.0
+                    ],
+                    "duration": 1.0,
+                    "type": "moving"
+                },
+                {
+                    "positions": [
+                        0.0,
+                        0.0,
+                        -0.0,
+                        -0.0,
+                        0.0
+                    ],
+                    "duration": 1.0,
+                    "type": "moving"
+                }
+            ],
+            "motion_mode": "single",
+            "step_delay": 0.0
+        },
+        "wave_left": {
+            "name": "wave_left",
+            "arm": "left",
+            "steps": [
+                {
+                    "positions": [
+                        0.0,
+                        -0.71,
+                        1.57,
+                        -1.57,
+                        0.0
+                    ],
+                    "duration": 1.0,
+                    "type": "moving"
+                },
+                {
+                    "positions": [
+                        0.0,
+                        -0.71,
+                        -1.57,
+                        -1.57,
+                        0.0
+                    ],
+                    "duration": 1.0,
+                    "type": "moving"
+                },
+                {
+                    "positions": [
+                        0.0,
+                        -0.71,
+                        1.57,
+                        -1.57,
+                        0.0
+                    ],
+                    "duration": 1.0,
+                    "type": "moving"
+                },
+                {
+                    "positions": [
+                        0.0,
+                        -0.71,
+                        -1.57,
+                        -1.57,
+                        0.0
+                    ],
+                    "duration": 1.0,
+                    "type": "moving"
+                },
+                {
+                    "positions": [
+                        0.0,
+                        -0.71,
+                        1.57,
+                        -1.57,
+                        0.0
+                    ],
+                    "duration": 1.0,
+                    "type": "moving"
+                },
+                {
+                    "positions": [
+                        0.0,
+                        -0.71,
+                        -1.57,
+                        -1.57,
+                        0.0
+                    ],
+                    "duration": 1.0,
+                    "type": "moving"
+                },
+                {
+                    "positions": [
+                        0.0,
+                        0.0,
+                        -0.0,
+                        -0.0,
+                        0.0
+                    ],
+                    "duration": 1.0,
+                    "type": "moving"
+                },
+                {
+                    "positions": [
+                        0.0,
+                        0.0,
+                        -0.0,
+                        -0.0,
+                        0.0
+                    ],
+                    "duration": 1.0,
+                    "type": "moving"
+                }
+            ],
+            "motion_mode": "single",
+            "step_delay": 0.1
+        },
+        "shake_hand": {
+            "name": "shake_hand",
+            "arm": "right",
+            "steps": [
+                {
+                    "positions": [
+                        -0.12,
+                        -1.08,
+                        -0.47,
+                        -0.43,
+                        0.0
+                    ],
+                    "duration": 1.0,
+                    "type": "moving"
+                },
+                {
+                    "positions": [
+                        -0.12,
+                        0.0,
+                        -0.0,
+                        -0.0,
+                        0.0
+                    ],
+                    "duration": 1.0,
+                    "type": "moving"
+                }
+            ],
+            "motion_mode": "single",
+            "step_delay": 3.0
+        },
+        "test": {
+            "name": "test",
+            "arm": "right",
+            "steps": [
+                {
+                    "positions": [
+                        -0.12,
+                        -1.8,
+                        -0.0,
+                        -0.0,
+                        0.0
+                    ],
+                    "duration": 1.0,
+                    "type": "moving"
+                }
+            ],
+            "motion_mode": "single",
+            "step_delay": 0.0
+        },
+        "salute": {
+            "name": "salute",
+            "arm": "right",
+            "steps": [
+                {
+                    "positions": [
+                        -0.12,
+                        -1.8,
+                        -1.6,
+                        -1.45,
+                        0.0
+                    ],
+                    "duration": 1.0,
+                    "type": "moving"
+                },
+                {
+                    "positions": [
+                        -0.12,
+                        -1.8,
+                        -1.8,
+                        -1.45,
+                        0.0
+                    ],
+                    "duration": 1.0,
+                    "type": "moving"
+                },
+                {
+                    "positions": [
+                        -0.12,
+                        -1.8,
+                        -1.8,
+                        -1.45,
+                        0.0
+                    ],
+                    "duration": 1.0,
+                    "type": "moving"
+                },
+                {
+                    "positions": [
+                        -0.12,
+                        0.0,
+                        -0.0,
+                        -0.0,
+                        0.0
+                    ],
+                    "duration": 1.0,
+                    "type": "moving"
+                },
+                {
+                    "positions": [
+                        -0.12,
+                        0.0,
+                        -0.0,
+                        -0.0,
+                        0.0
+                    ],
+                    "duration": 1.0,
+                    "type": "moving"
+                }
+            ],
+            "motion_mode": "single",
+            "step_delay": 0.0
+        },
+        "iiidle": {
+            "name": "iiidle",
+            "arm": "both",
+            "steps": [
+                {
+                    "left_positions": [
+                        0.0,
+                        -0.49,
+                        1.57,
+                        -0.77,
+                        0.0
+                    ],
+                    "right_positions": [
+                        -0.12,
+                        -0.54,
+                        -0.26,
+                        -1.18,
+                        0.0
+                    ],
+                    "duration": 1.0,
+                    "type": "moving"
+                },
+                {
+                    "left_positions": [
+                        0.0,
+                        -0.26,
+                        -0.0,
+                        -0.45,
+                        0.0
+                    ],
+                    "right_positions": [
+                        -0.12,
+                        0.09,
+                        0.36,
+                        -1.16,
+                        0.0
+                    ],
+                    "duration": 1.0,
+                    "type": "moving"
+                }
+            ],
+            "motion_mode": "continuous",
+            "step_delay": 0.01
+        }
+    }
+}

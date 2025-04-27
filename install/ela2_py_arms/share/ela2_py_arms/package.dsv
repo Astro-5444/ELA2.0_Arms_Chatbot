@@ -1,0 +1,6 @@
+source;share/ela2_py_arms/hook/pythonpath.ps1
+source;share/ela2_py_arms/hook/pythonpath.dsv
+source;share/ela2_py_arms/hook/pythonpath.sh
+source;share/ela2_py_arms/hook/ament_prefix_path.ps1
+source;share/ela2_py_arms/hook/ament_prefix_path.dsv
+source;share/ela2_py_arms/hook/ament_prefix_path.sh

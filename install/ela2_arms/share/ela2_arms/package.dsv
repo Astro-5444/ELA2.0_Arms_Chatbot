@@ -1,0 +1,8 @@
+source;share/ela2_arms/hook/cmake_prefix_path.ps1
+source;share/ela2_arms/hook/cmake_prefix_path.dsv
+source;share/ela2_arms/hook/cmake_prefix_path.sh
+source;share/ela2_arms/local_setup.bash
+source;share/ela2_arms/local_setup.dsv
+source;share/ela2_arms/local_setup.ps1
+source;share/ela2_arms/local_setup.sh
+source;share/ela2_arms/local_setup.zsh

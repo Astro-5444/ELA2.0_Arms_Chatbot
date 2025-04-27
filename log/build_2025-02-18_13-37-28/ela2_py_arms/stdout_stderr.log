@@ -1,0 +1,43 @@
+running egg_info
+creating ../../build/ela2_py_arms/ela2_py_arms.egg-info
+writing ../../build/ela2_py_arms/ela2_py_arms.egg-info/PKG-INFO
+writing dependency_links to ../../build/ela2_py_arms/ela2_py_arms.egg-info/dependency_links.txt
+writing entry points to ../../build/ela2_py_arms/ela2_py_arms.egg-info/entry_points.txt
+writing requirements to ../../build/ela2_py_arms/ela2_py_arms.egg-info/requires.txt
+writing top-level names to ../../build/ela2_py_arms/ela2_py_arms.egg-info/top_level.txt
+writing manifest file '../../build/ela2_py_arms/ela2_py_arms.egg-info/SOURCES.txt'
+reading manifest file '../../build/ela2_py_arms/ela2_py_arms.egg-info/SOURCES.txt'
+writing manifest file '../../build/ela2_py_arms/ela2_py_arms.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ela2/ros2_ws_arms/build/ela2_py_arms/build
+creating /home/ela2/ros2_ws_arms/build/ela2_py_arms/build/lib
+creating /home/ela2/ros2_ws_arms/build/ela2_py_arms/build/lib/ela2_py_arms
+copying ela2_py_arms/simple_publisher.py -> /home/ela2/ros2_ws_arms/build/ela2_py_arms/build/lib/ela2_py_arms
+copying ela2_py_arms/__init__.py -> /home/ela2/ros2_ws_arms/build/ela2_py_arms/build/lib/ela2_py_arms
+copying ela2_py_arms/simple_subs.py -> /home/ela2/ros2_ws_arms/build/ela2_py_arms/build/lib/ela2_py_arms
+copying ela2_py_arms/simple_parameter.py -> /home/ela2/ros2_ws_arms/build/ela2_py_arms/build/lib/ela2_py_arms
+running install
+running install_lib
+creating /home/ela2/ros2_ws_arms/install/ela2_py_arms/lib/python3.10/site-packages/ela2_py_arms
+copying /home/ela2/ros2_ws_arms/build/ela2_py_arms/build/lib/ela2_py_arms/simple_publisher.py -> /home/ela2/ros2_ws_arms/install/ela2_py_arms/lib/python3.10/site-packages/ela2_py_arms
+copying /home/ela2/ros2_ws_arms/build/ela2_py_arms/build/lib/ela2_py_arms/__init__.py -> /home/ela2/ros2_ws_arms/install/ela2_py_arms/lib/python3.10/site-packages/ela2_py_arms
+copying /home/ela2/ros2_ws_arms/build/ela2_py_arms/build/lib/ela2_py_arms/simple_subs.py -> /home/ela2/ros2_ws_arms/install/ela2_py_arms/lib/python3.10/site-packages/ela2_py_arms
+copying /home/ela2/ros2_ws_arms/build/ela2_py_arms/build/lib/ela2_py_arms/simple_parameter.py -> /home/ela2/ros2_ws_arms/install/ela2_py_arms/lib/python3.10/site-packages/ela2_py_arms
+byte-compiling /home/ela2/ros2_ws_arms/install/ela2_py_arms/lib/python3.10/site-packages/ela2_py_arms/simple_publisher.py to simple_publisher.cpython-310.pyc
+byte-compiling /home/ela2/ros2_ws_arms/install/ela2_py_arms/lib/python3.10/site-packages/ela2_py_arms/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ela2/ros2_ws_arms/install/ela2_py_arms/lib/python3.10/site-packages/ela2_py_arms/simple_subs.py to simple_subs.cpython-310.pyc
+byte-compiling /home/ela2/ros2_ws_arms/install/ela2_py_arms/lib/python3.10/site-packages/ela2_py_arms/simple_parameter.py to simple_parameter.cpython-310.pyc
+running install_data
+creating /home/ela2/ros2_ws_arms/install/ela2_py_arms/share/ament_index
+creating /home/ela2/ros2_ws_arms/install/ela2_py_arms/share/ament_index/resource_index
+creating /home/ela2/ros2_ws_arms/install/ela2_py_arms/share/ament_index/resource_index/packages
+copying resource/ela2_py_arms -> /home/ela2/ros2_ws_arms/install/ela2_py_arms/share/ament_index/resource_index/packages
+copying package.xml -> /home/ela2/ros2_ws_arms/install/ela2_py_arms/share/ela2_py_arms
+running install_egg_info
+Copying ../../build/ela2_py_arms/ela2_py_arms.egg-info to /home/ela2/ros2_ws_arms/install/ela2_py_arms/lib/python3.10/site-packages/ela2_py_arms-0.0.0-py3.10.egg-info
+running install_scripts
+Installing simple_parameter script to /home/ela2/ros2_ws_arms/install/ela2_py_arms/lib/ela2_py_arms
+Installing simple_publisher script to /home/ela2/ros2_ws_arms/install/ela2_py_arms/lib/ela2_py_arms
+Installing simple_subs script to /home/ela2/ros2_ws_arms/install/ela2_py_arms/lib/ela2_py_arms
+writing list of installed files to '/home/ela2/ros2_ws_arms/build/ela2_py_arms/install.log'

@@ -1,0 +1,17 @@
+/home/ela2/ros2_ws_arms/install/ela2_arms_controller/share/ela2_arms_controller/config/ela2_arms_controller.yaml
+/home/ela2/ros2_ws_arms/install/ela2_arms_controller/share/ela2_arms_controller/launch/controller_launch.py
+/home/ela2/ros2_ws_arms/install/ela2_arms_controller/share/ament_index/resource_index/package_run_dependencies/ela2_arms_controller
+/home/ela2/ros2_ws_arms/install/ela2_arms_controller/share/ament_index/resource_index/parent_prefix_path/ela2_arms_controller
+/home/ela2/ros2_ws_arms/install/ela2_arms_controller/share/ela2_arms_controller/environment/ament_prefix_path.sh
+/home/ela2/ros2_ws_arms/install/ela2_arms_controller/share/ela2_arms_controller/environment/ament_prefix_path.dsv
+/home/ela2/ros2_ws_arms/install/ela2_arms_controller/share/ela2_arms_controller/environment/path.sh
+/home/ela2/ros2_ws_arms/install/ela2_arms_controller/share/ela2_arms_controller/environment/path.dsv
+/home/ela2/ros2_ws_arms/install/ela2_arms_controller/share/ela2_arms_controller/local_setup.bash
+/home/ela2/ros2_ws_arms/install/ela2_arms_controller/share/ela2_arms_controller/local_setup.sh
+/home/ela2/ros2_ws_arms/install/ela2_arms_controller/share/ela2_arms_controller/local_setup.zsh
+/home/ela2/ros2_ws_arms/install/ela2_arms_controller/share/ela2_arms_controller/local_setup.dsv
+/home/ela2/ros2_ws_arms/install/ela2_arms_controller/share/ela2_arms_controller/package.dsv
+/home/ela2/ros2_ws_arms/install/ela2_arms_controller/share/ament_index/resource_index/packages/ela2_arms_controller
+/home/ela2/ros2_ws_arms/install/ela2_arms_controller/share/ela2_arms_controller/cmake/ela2_arms_controllerConfig.cmake
+/home/ela2/ros2_ws_arms/install/ela2_arms_controller/share/ela2_arms_controller/cmake/ela2_arms_controllerConfig-version.cmake
+/home/ela2/ros2_ws_arms/install/ela2_arms_controller/share/ela2_arms_controller/package.xml

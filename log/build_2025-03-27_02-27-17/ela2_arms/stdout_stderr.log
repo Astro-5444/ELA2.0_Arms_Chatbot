@@ -1,0 +1,58 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ela2/ros2_ws_arms/build/ela2_arms
+-- Install configuration: ""
+-- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/meshes
+-- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/meshes/Left_Palm.stl
+-- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/meshes/chest.stl
+-- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/meshes/Left_Upper_Arm.stl
+-- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/meshes/Left_Forearm.stl
+-- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/meshes/Right_Forearm.stl
+-- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/meshes/base.stl
+-- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/meshes/Right_Upper_Arm.stl
+-- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/meshes/Right_Palm.stl
+-- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/meshes/Left_Finger.stl
+-- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/meshes/Right_Finger.stl
+-- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/models
+-- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/models/sun
+-- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/models/sun/model-1_4.sdf
+-- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/models/sun/model-1_3.sdf
+-- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/models/sun/model.config
+-- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/models/sun/model.sdf
+-- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/models/sun/model-1_2.sdf
+-- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/models/ground_plane
+-- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/models/ground_plane/model-1_4.sdf
+-- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/models/ground_plane/model-1_3.sdf
+-- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/models/ground_plane/model.config
+-- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/models/ground_plane/model.sdf
+-- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/models/ground_plane/model-1_2.sdf
+-- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/urdf
+-- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/urdf/ela2_gazebo.xacro
+-- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/urdf/ela2arms.urdf.xacro
+-- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/urdf/ela2_ros2_control.xacro
+-- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/launch
+-- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/launch/display.launch.py
+-- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/launch/gazebo.launch.py
+-- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/rviz
+-- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/rviz/display.rviz
+-- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ament_index/resource_index/package_run_dependencies/ela2_arms
+-- Installing: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ament_index/resource_index/parent_prefix_path/ela2_arms
+-- Installing: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/environment/ament_prefix_path.sh
+-- Installing: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/environment/ament_prefix_path.dsv
+-- Installing: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/environment/path.sh
+-- Installing: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/environment/path.dsv
+-- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/local_setup.bash
+-- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/local_setup.sh
+-- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/local_setup.zsh
+-- Installing: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/local_setup.dsv
+-- Installing: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/package.dsv
+-- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ament_index/resource_index/packages/ela2_arms
+-- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/cmake/ela2_armsConfig.cmake
+-- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/cmake/ela2_armsConfig-version.cmake
+-- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/package.xml

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot name="ela2">
+  
+  <!-- Group Definitions -->
+  <group name="left_arm">
+    <joint name="left_upper_arm_y_joint"/>
+    <joint name="left_upper_arm_x_joint"/>
+    <joint name="left_forearm_z_joint"/>
+    <joint name="left_forearm_x_joint"/>
+    <joint name="left_finger_joint"/>
+  </group>
+  
+  <group name="right_arm">
+    <joint name="right_upper_arm_y_joint"/>
+    <joint name="right_upper_arm_x_joint"/>
+    <joint name="right_forearm_z_joint"/>
+    <joint name="right_forearm_x_joint"/>
+    <joint name="right_finger_joint"/>
+  </group>
+  
+  <group name="arms">
+    <group name="left_arm"/>
+    <group name="right_arm"/>
+  </group>
+  
+  <!-- Group States -->
+  <group_state name="home" group="arms">
+    <joint name="left_upper_arm_y_joint" value="0"/>
+    <joint name="left_upper_arm_x_joint" value="0"/>
+    <joint name="left_forearm_z_joint" value="0"/>
+    <joint name="left_forearm_x_joint" value="0"/>
+    <joint name="left_finger_joint" value="0"/>
+    <joint name="right_upper_arm_y_joint" value="0"/>
+    <joint name="right_upper_arm_x_joint" value="0"/>
+    <joint name="right_forearm_z_joint" value="0"/>
+    <joint name="right_forearm_x_joint" value="0"/>
+    <joint name="right_finger_joint" value="0"/>
+  </group_state>
+  
+  <!-- Collision Avoidance -->
+  <disable_collisions link1="base_link" link2="chest" reason="Global disable"/>
+  <disable_collisions link1="base_link" link2="left_upper_arm_x" reason="Global disable"/>
+  <disable_collisions link1="base_link" link2="left_forearm_x" reason="Global disable"/>
+  <disable_collisions link1="base_link" link2="Left_Palm" reason="Global disable"/>
+  <disable_collisions link1="base_link" link2="left_Finger" reason="Global disable"/>
+  <disable_collisions link1="base_link" link2="right_upper_arm_x" reason="Global disable"/>
+  <disable_collisions link1="base_link" link2="right_forearm_x" reason="Global disable"/>
+  <disable_collisions link1="base_link" link2="Right_Palm" reason="Global disable"/>
+  <disable_collisions link1="base_link" link2="right_Finger" reason="Global disable"/>
+  <disable_collisions link1="chest" link2="left_upper_arm_x" reason="Global disable"/>
+  <disable_collisions link1="chest" link2="left_forearm_x" reason="Global disable"/>
+  <disable_collisions link1="chest" link2="Left_Palm" reason="Global disable"/>
+  <disable_collisions link1="chest" link2="left_Finger" reason="Global disable"/>
+  <disable_collisions link1="chest" link2="right_upper_arm_x" reason="Global disable"/>
+  <disable_collisions link1="chest" link2="right_forearm_x" reason="Global disable"/>
+  <disable_collisions link1="chest" link2="Right_Palm" reason="Global disable"/>
+  <disable_collisions link1="chest" link2="right_Finger" reason="Global disable"/>
+  <disable_collisions link1="left_upper_arm_x" link2="left_forearm_x" reason="Global disable"/>
+  <disable_collisions link1="left_upper_arm_x" link2="Left_Palm" reason="Global disable"/>
+  <disable_collisions link1="left_upper_arm_x" link2="left_Finger" reason="Global disable"/>
+  <disable_collisions link1="left_upper_arm_x" link2="right_upper_arm_x" reason="Global disable"/>
+  <disable_collisions link1="left_upper_arm_x" link2="right_forearm_x" reason="Global disable"/>
+  <disable_collisions link1="left_upper_arm_x" link2="Right_Palm" reason="Global disable"/>
+  <disable_collisions link1="left_upper_arm_x" link2="right_Finger" reason="Global disable"/>
+  <disable_collisions link1="left_forearm_x" link2="Left_Palm" reason="Global disable"/>
+  <disable_collisions link1="left_forearm_x" link2="left_Finger" reason="Global disable"/>
+  <disable_collisions link1="left_forearm_x" link2="right_upper_arm_x" reason="Global disable"/>
+  <disable_collisions link1="left_forearm_x" link2="right_forearm_x" reason="Global disable"/>
+  <disable_collisions link1="left_forearm_x" link2="Right_Palm" reason="Global disable"/>
+  <disable_collisions link1="left_forearm_x" link2="right_Finger" reason="Global disable"/>
+  <disable_collisions link1="Left_Palm" link2="left_Finger" reason="Global disable"/>
+  <disable_collisions link1="Left_Palm" link2="right_upper_arm_x" reason="Global disable"/>
+  <disable_collisions link1="Left_Palm" link2="right_forearm_x" reason="Global disable"/>
+  <disable_collisions link1="Left_Palm" link2="Right_Palm" reason="Global disable"/>
+  <disable_collisions link1="Left_Palm" link2="right_Finger" reason="Global disable"/>
+  <disable_collisions link1="left_Finger" link2="right_upper_arm_x" reason="Global disable"/>
+  <disable_collisions link1="left_Finger" link2="right_forearm_x" reason="Global disable"/>
+  <disable_collisions link1="left_Finger" link2="Right_Palm" reason="Global disable"/>
+  <disable_collisions link1="left_Finger" link2="right_Finger" reason="Global disable"/>
+  <disable_collisions link1="right_upper_arm_x" link2="right_forearm_x" reason="Global disable"/>
+  <disable_collisions link1="right_upper_arm_x" link2="Right_Palm" reason="Global disable"/>
+  <disable_collisions link1="right_upper_arm_x" link2="right_Finger" reason="Global disable"/>
+  <disable_collisions link1="right_forearm_x" link2="Right_Palm" reason="Global disable"/>
+  <disable_collisions link1="right_forearm_x" link2="right_Finger" reason="Global disable"/>
+  <disable_collisions link1="Right_Palm" link2="right_Finger" reason="Global disable"/>
+
+
+
+
+
+</robot>

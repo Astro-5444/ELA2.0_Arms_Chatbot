@@ -1,0 +1,35 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ela2/ros2_ws_arms/build/ela2_moveit
+-- Install configuration: ""
+-- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_moveit/share/ela2_moveit/launch
+-- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_moveit/share/ela2_moveit/launch/moveit.launch.py
+-- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_moveit/share/ela2_moveit/config
+-- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_moveit/share/ela2_moveit/config/moveit.rviz
+-- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_moveit/share/ela2_moveit/config/moveit_controllers.yaml
+-- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_moveit/share/ela2_moveit/config/pilz_cartesian_limits.yaml
+-- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_moveit/share/ela2_moveit/config/ela2.srdf
+-- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_moveit/share/ela2_moveit/config/kinematics.yaml
+-- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_moveit/share/ela2_moveit/config/joint_limits.yaml
+-- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_moveit/share/ela2_moveit/config/initial_positions.yaml
+-- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_moveit/share/ament_index/resource_index/package_run_dependencies/ela2_moveit
+-- Installing: /home/ela2/ros2_ws_arms/install/ela2_moveit/share/ament_index/resource_index/parent_prefix_path/ela2_moveit
+-- Installing: /home/ela2/ros2_ws_arms/install/ela2_moveit/share/ela2_moveit/environment/ament_prefix_path.sh
+-- Installing: /home/ela2/ros2_ws_arms/install/ela2_moveit/share/ela2_moveit/environment/ament_prefix_path.dsv
+-- Installing: /home/ela2/ros2_ws_arms/install/ela2_moveit/share/ela2_moveit/environment/path.sh
+-- Installing: /home/ela2/ros2_ws_arms/install/ela2_moveit/share/ela2_moveit/environment/path.dsv
+-- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_moveit/share/ela2_moveit/local_setup.bash
+-- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_moveit/share/ela2_moveit/local_setup.sh
+-- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_moveit/share/ela2_moveit/local_setup.zsh
+-- Installing: /home/ela2/ros2_ws_arms/install/ela2_moveit/share/ela2_moveit/local_setup.dsv
+-- Installing: /home/ela2/ros2_ws_arms/install/ela2_moveit/share/ela2_moveit/package.dsv
+-- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_moveit/share/ament_index/resource_index/packages/ela2_moveit
+-- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_moveit/share/ela2_moveit/cmake/ela2_moveitConfig.cmake
+-- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_moveit/share/ela2_moveit/cmake/ela2_moveitConfig-version.cmake
+-- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_moveit/share/ela2_moveit/package.xml

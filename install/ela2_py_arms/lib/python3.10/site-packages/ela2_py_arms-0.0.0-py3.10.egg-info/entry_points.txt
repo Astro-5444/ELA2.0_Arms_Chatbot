@@ -1,0 +1,4 @@
+[console_scripts]
+simple_parameter = ela2_py_arms.simple_parameter:main
+simple_publisher = ela2_py_arms.simple_publisher:main
+simple_subs = ela2_py_arms.simple_subs:main

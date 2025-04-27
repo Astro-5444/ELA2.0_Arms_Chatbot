@@ -1,0 +1,20 @@
+[0.073s] Invoking command in '/home/ela2/ros2_ws_arms/build/ela2_cpp_arms': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ela2/ros2_ws_arms/install/esp32_controller:/home/ela2/ros2_ws_arms/install/ela2_py_arms:/home/ela2/ELA2.0_NAV/install/ella2_twist_converter:/home/ela2/ELA2.0_NAV/install/ella2_teleop:/home/ela2/ELA2.0_NAV/install/ella2_pose:/home/ela2/ELA2.0_NAV/install/ella2_gui:/opt/ros/humble /usr/bin/cmake --build /home/ela2/ros2_ws_arms/build/ela2_cpp_arms -- -j6 -l6
+[1.253s] Invoked command in '/home/ela2/ros2_ws_arms/build/ela2_cpp_arms' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ela2/ros2_ws_arms/install/esp32_controller:/home/ela2/ros2_ws_arms/install/ela2_py_arms:/home/ela2/ELA2.0_NAV/install/ella2_twist_converter:/home/ela2/ELA2.0_NAV/install/ella2_teleop:/home/ela2/ELA2.0_NAV/install/ella2_pose:/home/ela2/ELA2.0_NAV/install/ella2_gui:/opt/ros/humble /usr/bin/cmake --build /home/ela2/ros2_ws_arms/build/ela2_cpp_arms -- -j6 -l6
+[1.332s] Invoking command in '/home/ela2/ros2_ws_arms/build/ela2_cpp_arms': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ela2/ros2_ws_arms/install/esp32_controller:/home/ela2/ros2_ws_arms/install/ela2_py_arms:/home/ela2/ELA2.0_NAV/install/ella2_twist_converter:/home/ela2/ELA2.0_NAV/install/ella2_teleop:/home/ela2/ELA2.0_NAV/install/ella2_pose:/home/ela2/ELA2.0_NAV/install/ella2_gui:/opt/ros/humble /usr/bin/cmake --install /home/ela2/ros2_ws_arms/build/ela2_cpp_arms
+[1.354s] -- Install configuration: ""
+[1.359s] -- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_cpp_arms/share/ament_index/resource_index/package_run_dependencies/ela2_cpp_arms
+[1.359s] -- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_cpp_arms/share/ament_index/resource_index/parent_prefix_path/ela2_cpp_arms
+[1.359s] -- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_cpp_arms/share/ela2_cpp_arms/environment/ament_prefix_path.sh
+[1.359s] -- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_cpp_arms/share/ela2_cpp_arms/environment/ament_prefix_path.dsv
+[1.360s] -- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_cpp_arms/share/ela2_cpp_arms/environment/path.sh
+[1.368s] -- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_cpp_arms/share/ela2_cpp_arms/environment/path.dsv
+[1.368s] -- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_cpp_arms/share/ela2_cpp_arms/local_setup.bash
+[1.368s] -- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_cpp_arms/share/ela2_cpp_arms/local_setup.sh
+[1.368s] -- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_cpp_arms/share/ela2_cpp_arms/local_setup.zsh
+[1.368s] -- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_cpp_arms/share/ela2_cpp_arms/local_setup.dsv
+[1.368s] -- Installing: /home/ela2/ros2_ws_arms/install/ela2_cpp_arms/share/ela2_cpp_arms/package.dsv
+[1.368s] -- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_cpp_arms/share/ament_index/resource_index/packages/ela2_cpp_arms
+[1.369s] -- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_cpp_arms/share/ela2_cpp_arms/cmake/ela2_cpp_armsConfig.cmake
+[1.369s] -- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_cpp_arms/share/ela2_cpp_arms/cmake/ela2_cpp_armsConfig-version.cmake
+[1.369s] -- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_cpp_arms/share/ela2_cpp_arms/package.xml
+[1.423s] Invoked command in '/home/ela2/ros2_ws_arms/build/ela2_cpp_arms' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ela2/ros2_ws_arms/install/esp32_controller:/home/ela2/ros2_ws_arms/install/ela2_py_arms:/home/ela2/ELA2.0_NAV/install/ella2_twist_converter:/home/ela2/ELA2.0_NAV/install/ella2_teleop:/home/ela2/ELA2.0_NAV/install/ella2_pose:/home/ela2/ELA2.0_NAV/install/ella2_gui:/opt/ros/humble /usr/bin/cmake --install /home/ela2/ros2_ws_arms/build/ela2_cpp_arms

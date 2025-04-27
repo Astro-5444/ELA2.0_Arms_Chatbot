@@ -1,0 +1,45 @@
+[2.849s] Invoking command in '/home/ela2/ros2_ws_arms/src/ela2_py_arms': PYTHONPATH=/home/ela2/ros2_ws_arms/build/ela2_py_arms/prefix_override:/home/ela2/ros2_ws_arms/install/ela2_py_arms/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ela2_py_arms build --build-base /home/ela2/ros2_ws_arms/build/ela2_py_arms/build install --record /home/ela2/ros2_ws_arms/build/ela2_py_arms/install.log --single-version-externally-managed install_data
+[3.641s] running egg_info
+[3.641s] creating ../../build/ela2_py_arms/ela2_py_arms.egg-info
+[3.642s] writing ../../build/ela2_py_arms/ela2_py_arms.egg-info/PKG-INFO
+[3.642s] writing dependency_links to ../../build/ela2_py_arms/ela2_py_arms.egg-info/dependency_links.txt
+[3.643s] writing entry points to ../../build/ela2_py_arms/ela2_py_arms.egg-info/entry_points.txt
+[3.643s] writing requirements to ../../build/ela2_py_arms/ela2_py_arms.egg-info/requires.txt
+[3.643s] writing top-level names to ../../build/ela2_py_arms/ela2_py_arms.egg-info/top_level.txt
+[3.644s] writing manifest file '../../build/ela2_py_arms/ela2_py_arms.egg-info/SOURCES.txt'
+[3.647s] reading manifest file '../../build/ela2_py_arms/ela2_py_arms.egg-info/SOURCES.txt'
+[3.649s] writing manifest file '../../build/ela2_py_arms/ela2_py_arms.egg-info/SOURCES.txt'
+[3.649s] running build
+[3.650s] running build_py
+[3.650s] creating /home/ela2/ros2_ws_arms/build/ela2_py_arms/build
+[3.651s] creating /home/ela2/ros2_ws_arms/build/ela2_py_arms/build/lib
+[3.651s] creating /home/ela2/ros2_ws_arms/build/ela2_py_arms/build/lib/ela2_py_arms
+[3.651s] copying ela2_py_arms/simple_publisher.py -> /home/ela2/ros2_ws_arms/build/ela2_py_arms/build/lib/ela2_py_arms
+[3.651s] copying ela2_py_arms/__init__.py -> /home/ela2/ros2_ws_arms/build/ela2_py_arms/build/lib/ela2_py_arms
+[3.652s] copying ela2_py_arms/simple_subs.py -> /home/ela2/ros2_ws_arms/build/ela2_py_arms/build/lib/ela2_py_arms
+[3.652s] copying ela2_py_arms/simple_parameter.py -> /home/ela2/ros2_ws_arms/build/ela2_py_arms/build/lib/ela2_py_arms
+[3.652s] running install
+[3.652s] running install_lib
+[3.653s] creating /home/ela2/ros2_ws_arms/install/ela2_py_arms/lib/python3.10/site-packages/ela2_py_arms
+[3.654s] copying /home/ela2/ros2_ws_arms/build/ela2_py_arms/build/lib/ela2_py_arms/simple_publisher.py -> /home/ela2/ros2_ws_arms/install/ela2_py_arms/lib/python3.10/site-packages/ela2_py_arms
+[3.654s] copying /home/ela2/ros2_ws_arms/build/ela2_py_arms/build/lib/ela2_py_arms/__init__.py -> /home/ela2/ros2_ws_arms/install/ela2_py_arms/lib/python3.10/site-packages/ela2_py_arms
+[3.654s] copying /home/ela2/ros2_ws_arms/build/ela2_py_arms/build/lib/ela2_py_arms/simple_subs.py -> /home/ela2/ros2_ws_arms/install/ela2_py_arms/lib/python3.10/site-packages/ela2_py_arms
+[3.654s] copying /home/ela2/ros2_ws_arms/build/ela2_py_arms/build/lib/ela2_py_arms/simple_parameter.py -> /home/ela2/ros2_ws_arms/install/ela2_py_arms/lib/python3.10/site-packages/ela2_py_arms
+[3.655s] byte-compiling /home/ela2/ros2_ws_arms/install/ela2_py_arms/lib/python3.10/site-packages/ela2_py_arms/simple_publisher.py to simple_publisher.cpython-310.pyc
+[3.656s] byte-compiling /home/ela2/ros2_ws_arms/install/ela2_py_arms/lib/python3.10/site-packages/ela2_py_arms/__init__.py to __init__.cpython-310.pyc
+[3.657s] byte-compiling /home/ela2/ros2_ws_arms/install/ela2_py_arms/lib/python3.10/site-packages/ela2_py_arms/simple_subs.py to simple_subs.cpython-310.pyc
+[3.658s] byte-compiling /home/ela2/ros2_ws_arms/install/ela2_py_arms/lib/python3.10/site-packages/ela2_py_arms/simple_parameter.py to simple_parameter.cpython-310.pyc
+[3.659s] running install_data
+[3.660s] creating /home/ela2/ros2_ws_arms/install/ela2_py_arms/share/ament_index
+[3.660s] creating /home/ela2/ros2_ws_arms/install/ela2_py_arms/share/ament_index/resource_index
+[3.660s] creating /home/ela2/ros2_ws_arms/install/ela2_py_arms/share/ament_index/resource_index/packages
+[3.660s] copying resource/ela2_py_arms -> /home/ela2/ros2_ws_arms/install/ela2_py_arms/share/ament_index/resource_index/packages
+[3.660s] copying package.xml -> /home/ela2/ros2_ws_arms/install/ela2_py_arms/share/ela2_py_arms
+[3.660s] running install_egg_info
+[3.663s] Copying ../../build/ela2_py_arms/ela2_py_arms.egg-info to /home/ela2/ros2_ws_arms/install/ela2_py_arms/lib/python3.10/site-packages/ela2_py_arms-0.0.0-py3.10.egg-info
+[3.665s] running install_scripts
+[3.710s] Installing simple_parameter script to /home/ela2/ros2_ws_arms/install/ela2_py_arms/lib/ela2_py_arms
+[3.710s] Installing simple_publisher script to /home/ela2/ros2_ws_arms/install/ela2_py_arms/lib/ela2_py_arms
+[3.710s] Installing simple_subs script to /home/ela2/ros2_ws_arms/install/ela2_py_arms/lib/ela2_py_arms
+[3.710s] writing list of installed files to '/home/ela2/ros2_ws_arms/build/ela2_py_arms/install.log'
+[3.786s] Invoked command in '/home/ela2/ros2_ws_arms/src/ela2_py_arms' returned '0': PYTHONPATH=/home/ela2/ros2_ws_arms/build/ela2_py_arms/prefix_override:/home/ela2/ros2_ws_arms/install/ela2_py_arms/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ela2_py_arms build --build-base /home/ela2/ros2_ws_arms/build/ela2_py_arms/build install --record /home/ela2/ros2_ws_arms/build/ela2_py_arms/install.log --single-version-externally-managed install_data

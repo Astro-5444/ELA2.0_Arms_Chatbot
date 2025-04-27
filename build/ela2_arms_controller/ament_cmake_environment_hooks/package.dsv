@@ -1,0 +1,4 @@
+source;share/ela2_arms_controller/local_setup.bash
+source;share/ela2_arms_controller/local_setup.dsv
+source;share/ela2_arms_controller/local_setup.sh
+source;share/ela2_arms_controller/local_setup.zsh

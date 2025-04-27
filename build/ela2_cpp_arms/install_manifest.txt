@@ -1,0 +1,15 @@
+/home/ela2/ros2_ws_arms/install/ela2_cpp_arms/share/ament_index/resource_index/package_run_dependencies/ela2_cpp_arms
+/home/ela2/ros2_ws_arms/install/ela2_cpp_arms/share/ament_index/resource_index/parent_prefix_path/ela2_cpp_arms
+/home/ela2/ros2_ws_arms/install/ela2_cpp_arms/share/ela2_cpp_arms/environment/ament_prefix_path.sh
+/home/ela2/ros2_ws_arms/install/ela2_cpp_arms/share/ela2_cpp_arms/environment/ament_prefix_path.dsv
+/home/ela2/ros2_ws_arms/install/ela2_cpp_arms/share/ela2_cpp_arms/environment/path.sh
+/home/ela2/ros2_ws_arms/install/ela2_cpp_arms/share/ela2_cpp_arms/environment/path.dsv
+/home/ela2/ros2_ws_arms/install/ela2_cpp_arms/share/ela2_cpp_arms/local_setup.bash
+/home/ela2/ros2_ws_arms/install/ela2_cpp_arms/share/ela2_cpp_arms/local_setup.sh
+/home/ela2/ros2_ws_arms/install/ela2_cpp_arms/share/ela2_cpp_arms/local_setup.zsh
+/home/ela2/ros2_ws_arms/install/ela2_cpp_arms/share/ela2_cpp_arms/local_setup.dsv
+/home/ela2/ros2_ws_arms/install/ela2_cpp_arms/share/ela2_cpp_arms/package.dsv
+/home/ela2/ros2_ws_arms/install/ela2_cpp_arms/share/ament_index/resource_index/packages/ela2_cpp_arms
+/home/ela2/ros2_ws_arms/install/ela2_cpp_arms/share/ela2_cpp_arms/cmake/ela2_cpp_armsConfig.cmake
+/home/ela2/ros2_ws_arms/install/ela2_cpp_arms/share/ela2_cpp_arms/cmake/ela2_cpp_armsConfig-version.cmake
+/home/ela2/ros2_ws_arms/install/ela2_cpp_arms/share/ela2_cpp_arms/package.xml

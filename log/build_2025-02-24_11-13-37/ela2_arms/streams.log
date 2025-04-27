@@ -1,0 +1,53 @@
+[0.088s] Invoking command in '/home/ela2/ros2_ws_arms/build/ela2_arms': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ela2/ros2_ws_arms/install/esp32_controller:/home/ela2/ros2_ws_arms/install/ela2_py_arms:/home/ela2/ELA2.0_NAV/install/ella2_twist_converter:/home/ela2/ELA2.0_NAV/install/ella2_teleop:/home/ela2/ELA2.0_NAV/install/ella2_pose:/home/ela2/ELA2.0_NAV/install/ella2_gui:/opt/ros/humble /usr/bin/cmake --build /home/ela2/ros2_ws_arms/build/ela2_arms -- -j6 -l6
+[1.086s] Invoked command in '/home/ela2/ros2_ws_arms/build/ela2_arms' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ela2/ros2_ws_arms/install/esp32_controller:/home/ela2/ros2_ws_arms/install/ela2_py_arms:/home/ela2/ELA2.0_NAV/install/ella2_twist_converter:/home/ela2/ELA2.0_NAV/install/ella2_teleop:/home/ela2/ELA2.0_NAV/install/ella2_pose:/home/ela2/ELA2.0_NAV/install/ella2_gui:/opt/ros/humble /usr/bin/cmake --build /home/ela2/ros2_ws_arms/build/ela2_arms -- -j6 -l6
+[1.164s] Invoking command in '/home/ela2/ros2_ws_arms/build/ela2_arms': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ela2/ros2_ws_arms/install/esp32_controller:/home/ela2/ros2_ws_arms/install/ela2_py_arms:/home/ela2/ELA2.0_NAV/install/ella2_twist_converter:/home/ela2/ELA2.0_NAV/install/ella2_teleop:/home/ela2/ELA2.0_NAV/install/ella2_pose:/home/ela2/ELA2.0_NAV/install/ella2_gui:/opt/ros/humble /usr/bin/cmake --install /home/ela2/ros2_ws_arms/build/ela2_arms
+[1.183s] -- Install configuration: ""
+[1.183s] -- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/meshes
+[1.183s] -- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/meshes/Left_Palm.stl
+[1.183s] -- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/meshes/chest.stl
+[1.183s] -- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/meshes/Left_Upper_Arm.stl
+[1.183s] -- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/meshes/Left_Forearm.stl
+[1.184s] -- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/meshes/Right_Forearm.stl
+[1.184s] -- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/meshes/base.stl
+[1.184s] -- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/meshes/Right_Upper_Arm.stl
+[1.184s] -- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/meshes/Right_Palm.stl
+[1.184s] -- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/meshes/Left_Finger.stl
+[1.185s] -- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/meshes/Right_Finger.stl
+[1.185s] -- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/models
+[1.185s] -- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/models/sun
+[1.185s] -- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/models/sun/model-1_4.sdf
+[1.185s] -- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/models/sun/model-1_3.sdf
+[1.185s] -- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/models/sun/model.config
+[1.185s] -- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/models/sun/model.sdf
+[1.185s] -- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/models/sun/model-1_2.sdf
+[1.185s] -- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/models/ground_plane
+[1.186s] -- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/models/ground_plane/model-1_4.sdf
+[1.186s] -- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/models/ground_plane/model-1_3.sdf
+[1.186s] -- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/models/ground_plane/model.config
+[1.186s] -- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/models/ground_plane/model.sdf
+[1.186s] -- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/models/ground_plane/model-1_2.sdf
+[1.186s] -- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/urdf
+[1.186s] -- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/urdf/ela2_gazebo.xacro
+[1.186s] -- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/urdf/ela2arms.urdf.xacro
+[1.187s] -- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/urdf/ela2_ros2_control.xacro
+[1.187s] -- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/launch
+[1.187s] -- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/launch/display.launch.py
+[1.187s] -- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/launch/gazebo.launch.py
+[1.187s] -- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/rviz
+[1.187s] -- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/rviz/display.rviz
+[1.187s] -- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ament_index/resource_index/package_run_dependencies/ela2_arms
+[1.187s] -- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ament_index/resource_index/parent_prefix_path/ela2_arms
+[1.187s] -- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/environment/ament_prefix_path.sh
+[1.188s] -- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/environment/ament_prefix_path.dsv
+[1.188s] -- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/environment/path.sh
+[1.190s] -- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/environment/path.dsv
+[1.198s] -- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/local_setup.bash
+[1.199s] -- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/local_setup.sh
+[1.200s] -- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/local_setup.zsh
+[1.201s] -- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/local_setup.dsv
+[1.203s] -- Installing: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/package.dsv
+[1.205s] -- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ament_index/resource_index/packages/ela2_arms
+[1.206s] -- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/cmake/ela2_armsConfig.cmake
+[1.206s] -- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/cmake/ela2_armsConfig-version.cmake
+[1.207s] -- Up-to-date: /home/ela2/ros2_ws_arms/install/ela2_arms/share/ela2_arms/package.xml
+[1.211s] Invoked command in '/home/ela2/ros2_ws_arms/build/ela2_arms' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ela2/ros2_ws_arms/install/esp32_controller:/home/ela2/ros2_ws_arms/install/ela2_py_arms:/home/ela2/ELA2.0_NAV/install/ella2_twist_converter:/home/ela2/ELA2.0_NAV/install/ella2_teleop:/home/ela2/ELA2.0_NAV/install/ella2_pose:/home/ela2/ELA2.0_NAV/install/ella2_gui:/opt/ros/humble /usr/bin/cmake --install /home/ela2/ros2_ws_arms/build/ela2_arms

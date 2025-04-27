@@ -1,0 +1,23 @@
+[2.036s] Invoking command in '/home/ela2/ros2_ws_arms/src/ela2_py_arms': PYTHONPATH=/home/ela2/ros2_ws_arms/build/ela2_py_arms/prefix_override:/home/ela2/ros2_ws_arms/install/ela2_py_arms/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ela2_py_arms build --build-base /home/ela2/ros2_ws_arms/build/ela2_py_arms/build install --record /home/ela2/ros2_ws_arms/build/ela2_py_arms/install.log --single-version-externally-managed install_data
+[2.541s] running egg_info
+[2.542s] writing ../../build/ela2_py_arms/ela2_py_arms.egg-info/PKG-INFO
+[2.542s] writing dependency_links to ../../build/ela2_py_arms/ela2_py_arms.egg-info/dependency_links.txt
+[2.543s] writing entry points to ../../build/ela2_py_arms/ela2_py_arms.egg-info/entry_points.txt
+[2.543s] writing requirements to ../../build/ela2_py_arms/ela2_py_arms.egg-info/requires.txt
+[2.544s] writing top-level names to ../../build/ela2_py_arms/ela2_py_arms.egg-info/top_level.txt
+[2.547s] reading manifest file '../../build/ela2_py_arms/ela2_py_arms.egg-info/SOURCES.txt'
+[2.549s] writing manifest file '../../build/ela2_py_arms/ela2_py_arms.egg-info/SOURCES.txt'
+[2.549s] running build
+[2.549s] running build_py
+[2.550s] running install
+[2.551s] running install_lib
+[2.554s] running install_data
+[2.554s] running install_egg_info
+[2.557s] removing '/home/ela2/ros2_ws_arms/install/ela2_py_arms/lib/python3.10/site-packages/ela2_py_arms-0.0.0-py3.10.egg-info' (and everything under it)
+[2.558s] Copying ../../build/ela2_py_arms/ela2_py_arms.egg-info to /home/ela2/ros2_ws_arms/install/ela2_py_arms/lib/python3.10/site-packages/ela2_py_arms-0.0.0-py3.10.egg-info
+[2.560s] running install_scripts
+[2.606s] Installing simple_parameter script to /home/ela2/ros2_ws_arms/install/ela2_py_arms/lib/ela2_py_arms
+[2.607s] Installing simple_publisher script to /home/ela2/ros2_ws_arms/install/ela2_py_arms/lib/ela2_py_arms
+[2.607s] Installing simple_subs script to /home/ela2/ros2_ws_arms/install/ela2_py_arms/lib/ela2_py_arms
+[2.607s] writing list of installed files to '/home/ela2/ros2_ws_arms/build/ela2_py_arms/install.log'
+[2.705s] Invoked command in '/home/ela2/ros2_ws_arms/src/ela2_py_arms' returned '0': PYTHONPATH=/home/ela2/ros2_ws_arms/build/ela2_py_arms/prefix_override:/home/ela2/ros2_ws_arms/install/ela2_py_arms/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ela2_py_arms build --build-base /home/ela2/ros2_ws_arms/build/ela2_py_arms/build install --record /home/ela2/ros2_ws_arms/build/ela2_py_arms/install.log --single-version-externally-managed install_data

@@ -1,0 +1,24 @@
+[2.482s] Invoking command in '/home/ela2/ros2_ws_arms/src/esp32_controller': PYTHONPATH=/home/ela2/ros2_ws_arms/build/esp32_controller/prefix_override:/home/ela2/ros2_ws_arms/install/esp32_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/esp32_controller build --build-base /home/ela2/ros2_ws_arms/build/esp32_controller/build install --record /home/ela2/ros2_ws_arms/build/esp32_controller/install.log --single-version-externally-managed install_data
+[3.034s] running egg_info
+[3.073s] writing ../../build/esp32_controller/esp32_controller.egg-info/PKG-INFO
+[3.073s] writing dependency_links to ../../build/esp32_controller/esp32_controller.egg-info/dependency_links.txt
+[3.074s] writing entry points to ../../build/esp32_controller/esp32_controller.egg-info/entry_points.txt
+[3.074s] writing requirements to ../../build/esp32_controller/esp32_controller.egg-info/requires.txt
+[3.074s] writing top-level names to ../../build/esp32_controller/esp32_controller.egg-info/top_level.txt
+[3.152s] reading manifest file '../../build/esp32_controller/esp32_controller.egg-info/SOURCES.txt'
+[3.154s] writing manifest file '../../build/esp32_controller/esp32_controller.egg-info/SOURCES.txt'
+[3.155s] running build
+[3.155s] running build_py
+[3.155s] copying esp32_controller/esp32_control_node.py -> /home/ela2/ros2_ws_arms/build/esp32_controller/build/lib/esp32_controller
+[3.156s] running install
+[3.168s] running install_lib
+[3.207s] copying /home/ela2/ros2_ws_arms/build/esp32_controller/build/lib/esp32_controller/esp32_control_node.py -> /home/ela2/ros2_ws_arms/install/esp32_controller/lib/python3.10/site-packages/esp32_controller
+[3.209s] byte-compiling /home/ela2/ros2_ws_arms/install/esp32_controller/lib/python3.10/site-packages/esp32_controller/esp32_control_node.py to esp32_control_node.cpython-310.pyc
+[3.211s] running install_data
+[3.212s] running install_egg_info
+[3.253s] removing '/home/ela2/ros2_ws_arms/install/esp32_controller/lib/python3.10/site-packages/esp32_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[3.253s] Copying ../../build/esp32_controller/esp32_controller.egg-info to /home/ela2/ros2_ws_arms/install/esp32_controller/lib/python3.10/site-packages/esp32_controller-0.0.0-py3.10.egg-info
+[3.256s] running install_scripts
+[3.632s] Installing esp32_control_node script to /home/ela2/ros2_ws_arms/install/esp32_controller/lib/esp32_controller
+[3.633s] writing list of installed files to '/home/ela2/ros2_ws_arms/build/esp32_controller/install.log'
+[3.743s] Invoked command in '/home/ela2/ros2_ws_arms/src/esp32_controller' returned '0': PYTHONPATH=/home/ela2/ros2_ws_arms/build/esp32_controller/prefix_override:/home/ela2/ros2_ws_arms/install/esp32_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/esp32_controller build --build-base /home/ela2/ros2_ws_arms/build/esp32_controller/build install --record /home/ela2/ros2_ws_arms/build/esp32_controller/install.log --single-version-externally-managed install_data

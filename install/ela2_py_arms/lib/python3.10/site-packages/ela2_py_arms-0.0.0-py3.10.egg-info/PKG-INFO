@@ -1,0 +1,13 @@
+Metadata-Version: 2.2
+Name: ela2_py_arms
+Version: 0.0.0
+Summary: TODO: Package description
+Maintainer: abdel
+Maintainer-email: abdel@todo.todo
+License: TODO: License declaration
+Requires-Dist: setuptools
+Dynamic: license
+Dynamic: maintainer
+Dynamic: maintainer-email
+Dynamic: requires-dist
+Dynamic: summary

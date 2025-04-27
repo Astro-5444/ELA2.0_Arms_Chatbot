@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="ela2">
+
+
+
+    <xacro:property name="PI" value="3.14159"/>
+
+    <ros2_control name="RobotSystem" type="system">
+        <hardware>
+            <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+        </hardware>
+  
+
+        <joint name="left_upper_arm_y_joint">
+            <command_interface name="position">
+            <param name="min">-${PI/2}</param>
+            <param name="max">${PI/2}</param>
+            </command_interface>
+            <state_interface name="position"/>
+        </joint>
+        
+        <joint name="left_upper_arm_x_joint">
+            <command_interface name="position">
+            <param name="min">-${PI/2}</param>
+            <param name="max">${PI/2}</param>
+            </command_interface>
+            <state_interface name="position"/>
+        </joint>
+
+        <joint name="left_forearm_z_joint">
+            <command_interface name="position">
+            <param name="min">-${PI/2}</param>
+            <param name="max">${PI/2}</param>
+            </command_interface>
+            <state_interface name="position"/>
+        </joint>
+
+        <joint name="left_forearm_x_joint">
+            <command_interface name="position">
+            <param name="min">-${PI/2}</param>
+            <param name="max">${PI/2}</param>
+            </command_interface>
+            <state_interface name="position"/>
+        </joint>
+
+        <joint name="left_finger_joint">
+            <command_interface name="position">
+            <param name="min">-${0.4}</param>
+            <param name="max">${0.3}</param>
+            </command_interface>
+            <state_interface name="position"/>
+        </joint>
+
+        <joint name="right_upper_arm_y_joint">
+            <command_interface name="position">
+            <param name="min">-${PI/2}</param>
+            <param name="max">0</param>
+            </command_interface>
+            <state_interface name="position"/>
+        </joint>
+
+        <joint name="right_upper_arm_x_joint">
+            <command_interface name="position">
+            <param name="min">-${PI/2}</param>
+            <param name="max">${PI/2}</param>
+            </command_interface>
+            <state_interface name="position"/>
+        </joint>
+
+        <joint name="right_forearm_z_joint">
+            <command_interface name="position">
+            <param name="min">-${PI/2}</param>
+            <param name="max">${PI/2}</param>
+            </command_interface>
+            <state_interface name="position"/>
+        </joint>
+
+        <joint name="right_forearm_x_joint">
+            <command_interface name="position">
+            <param name="min">-${PI/2}</param>
+            <param name="max">${PI/2}</param>
+            </command_interface>
+            <state_interface name="position"/>
+        </joint>
+
+        <joint name="right_finger_joint">
+            <command_interface name="position">
+            <param name="min">-${0.4}</param>
+            <param name="max">${0.3}</param>
+            </command_interface>
+            <state_interface name="position"/>
+        </joint>
+    </ros2_control>
+
+
+</robot>

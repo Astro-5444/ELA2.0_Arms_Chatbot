@@ -1,0 +1,4 @@
+source;share/ela2_arms/local_setup.bash
+source;share/ela2_arms/local_setup.dsv
+source;share/ela2_arms/local_setup.sh
+source;share/ela2_arms/local_setup.zsh

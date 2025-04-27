@@ -1,0 +1,2 @@
+[console_scripts]
+esp32_control_node = esp32_controller.esp32_control_node:main

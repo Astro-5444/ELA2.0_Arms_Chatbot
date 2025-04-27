@@ -1,0 +1,54 @@
+[0.078s] Invoking command in '/home/ela2/ros2_ws_arms/build/ela2_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ela2/ELA2.0_NAV/install/ella2_twist_converter:/home/ela2/ELA2.0_NAV/install/ella2_teleop:/home/ela2/ELA2.0_NAV/install/ella2_pose:/home/ela2/ELA2.0_NAV/install/ella2_gui:/opt/ros/humble /usr/bin/cmake /home/ela2/ros2_ws_arms/src/ela2_moveit -DCMAKE_INSTALL_PREFIX=/home/ela2/ros2_ws_arms/install/ela2_moveit
+[0.731s] -- The C compiler identification is GNU 11.4.0
+[1.111s] -- The CXX compiler identification is GNU 11.4.0
+[1.126s] -- Detecting C compiler ABI info
+[1.293s] -- Detecting C compiler ABI info - done
+[1.319s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.320s] -- Detecting C compile features
+[1.329s] -- Detecting C compile features - done
+[1.338s] -- Detecting CXX compiler ABI info
+[1.568s] -- Detecting CXX compiler ABI info - done
+[1.581s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.581s] -- Detecting CXX compile features
+[1.582s] -- Detecting CXX compile features - done
+[1.595s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.298s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.558s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.845s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.848s] -- Added test 'lint_cmake' to check CMake code style
+[2.850s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.856s] -- Added test 'xmllint' to check XML markup files
+[2.861s] -- Configuring done
+[2.867s] -- Generating done
+[2.868s] -- Build files have been written to: /home/ela2/ros2_ws_arms/build/ela2_moveit
+[2.890s] Invoked command in '/home/ela2/ros2_ws_arms/build/ela2_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ela2/ELA2.0_NAV/install/ella2_twist_converter:/home/ela2/ELA2.0_NAV/install/ella2_teleop:/home/ela2/ELA2.0_NAV/install/ella2_pose:/home/ela2/ELA2.0_NAV/install/ella2_gui:/opt/ros/humble /usr/bin/cmake /home/ela2/ros2_ws_arms/src/ela2_moveit -DCMAKE_INSTALL_PREFIX=/home/ela2/ros2_ws_arms/install/ela2_moveit
+[2.891s] Invoking command in '/home/ela2/ros2_ws_arms/build/ela2_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ela2/ELA2.0_NAV/install/ella2_twist_converter:/home/ela2/ELA2.0_NAV/install/ella2_teleop:/home/ela2/ELA2.0_NAV/install/ella2_pose:/home/ela2/ELA2.0_NAV/install/ella2_gui:/opt/ros/humble /usr/bin/cmake --build /home/ela2/ros2_ws_arms/build/ela2_moveit -- -j6 -l6
+[3.035s] Invoked command in '/home/ela2/ros2_ws_arms/build/ela2_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ela2/ELA2.0_NAV/install/ella2_twist_converter:/home/ela2/ELA2.0_NAV/install/ella2_teleop:/home/ela2/ELA2.0_NAV/install/ella2_pose:/home/ela2/ELA2.0_NAV/install/ella2_gui:/opt/ros/humble /usr/bin/cmake --build /home/ela2/ros2_ws_arms/build/ela2_moveit -- -j6 -l6
+[3.129s] Invoking command in '/home/ela2/ros2_ws_arms/build/ela2_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ela2/ELA2.0_NAV/install/ella2_twist_converter:/home/ela2/ELA2.0_NAV/install/ella2_teleop:/home/ela2/ELA2.0_NAV/install/ella2_pose:/home/ela2/ELA2.0_NAV/install/ella2_gui:/opt/ros/humble /usr/bin/cmake --install /home/ela2/ros2_ws_arms/build/ela2_moveit
+[3.150s] -- Install configuration: ""
+[3.150s] -- Installing: /home/ela2/ros2_ws_arms/install/ela2_moveit/share/ela2_moveit/launch
+[3.153s] -- Installing: /home/ela2/ros2_ws_arms/install/ela2_moveit/share/ela2_moveit/launch/moveit.launch.py
+[3.153s] -- Installing: /home/ela2/ros2_ws_arms/install/ela2_moveit/share/ela2_moveit/config
+[3.153s] -- Installing: /home/ela2/ros2_ws_arms/install/ela2_moveit/share/ela2_moveit/config/moveit.rviz
+[3.154s] -- Installing: /home/ela2/ros2_ws_arms/install/ela2_moveit/share/ela2_moveit/config/moveit_controllers.yaml
+[3.154s] -- Installing: /home/ela2/ros2_ws_arms/install/ela2_moveit/share/ela2_moveit/config/pilz_cartesian_limits.yaml
+[3.154s] -- Installing: /home/ela2/ros2_ws_arms/install/ela2_moveit/share/ela2_moveit/config/ela2.srdf
+[3.154s] -- Installing: /home/ela2/ros2_ws_arms/install/ela2_moveit/share/ela2_moveit/config/kinematics.yaml
+[3.156s] -- Installing: /home/ela2/ros2_ws_arms/install/ela2_moveit/share/ela2_moveit/config/joint_limits.yaml
+[3.156s] -- Installing: /home/ela2/ros2_ws_arms/install/ela2_moveit/share/ela2_moveit/config/initial_positions.yaml
+[3.157s] -- Installing: /home/ela2/ros2_ws_arms/install/ela2_moveit/share/ament_index/resource_index/package_run_dependencies/ela2_moveit
+[3.157s] -- Installing: /home/ela2/ros2_ws_arms/install/ela2_moveit/share/ament_index/resource_index/parent_prefix_path/ela2_moveit
+[3.157s] -- Installing: /home/ela2/ros2_ws_arms/install/ela2_moveit/share/ela2_moveit/environment/ament_prefix_path.sh
+[3.157s] -- Installing: /home/ela2/ros2_ws_arms/install/ela2_moveit/share/ela2_moveit/environment/ament_prefix_path.dsv
+[3.157s] -- Installing: /home/ela2/ros2_ws_arms/install/ela2_moveit/share/ela2_moveit/environment/path.sh
+[3.158s] -- Installing: /home/ela2/ros2_ws_arms/install/ela2_moveit/share/ela2_moveit/environment/path.dsv
+[3.158s] -- Installing: /home/ela2/ros2_ws_arms/install/ela2_moveit/share/ela2_moveit/local_setup.bash
+[3.159s] -- Installing: /home/ela2/ros2_ws_arms/install/ela2_moveit/share/ela2_moveit/local_setup.sh
+[3.159s] -- Installing: /home/ela2/ros2_ws_arms/install/ela2_moveit/share/ela2_moveit/local_setup.zsh
+[3.160s] -- Installing: /home/ela2/ros2_ws_arms/install/ela2_moveit/share/ela2_moveit/local_setup.dsv
+[3.160s] -- Installing: /home/ela2/ros2_ws_arms/install/ela2_moveit/share/ela2_moveit/package.dsv
+[3.161s] -- Installing: /home/ela2/ros2_ws_arms/install/ela2_moveit/share/ament_index/resource_index/packages/ela2_moveit
+[3.162s] -- Installing: /home/ela2/ros2_ws_arms/install/ela2_moveit/share/ela2_moveit/cmake/ela2_moveitConfig.cmake
+[3.164s] -- Installing: /home/ela2/ros2_ws_arms/install/ela2_moveit/share/ela2_moveit/cmake/ela2_moveitConfig-version.cmake
+[3.164s] -- Installing: /home/ela2/ros2_ws_arms/install/ela2_moveit/share/ela2_moveit/package.xml
+[3.182s] Invoked command in '/home/ela2/ros2_ws_arms/build/ela2_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ela2/ELA2.0_NAV/install/ella2_twist_converter:/home/ela2/ELA2.0_NAV/install/ella2_teleop:/home/ela2/ELA2.0_NAV/install/ella2_pose:/home/ela2/ELA2.0_NAV/install/ella2_gui:/opt/ros/humble /usr/bin/cmake --install /home/ela2/ros2_ws_arms/build/ela2_moveit
