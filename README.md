@@ -1,0 +1,117 @@
+Great! Here’s a draft section for your GitHub README, casually explaining how to run each part of your system. I’ve structured it based on your explanation, and added corrections where needed. We can later add an overall system diagram or explanation if you like.
+
+---
+
+## 🤖 How to Run the System
+
+This project controls a humanoid robot with a working arm system, a chatbot (using speech-to-text and text-to-speech), and autonomous navigation. Below are the steps to launch each part of the system.
+
+---
+
+### 🦾 Arm Control (ESP32 + GUI)
+
+You’ll run this in **one terminal**:
+
+```bash
+cd ros2_ws_arms
+. install/setup.bash
+ros2 run esp32_controller esp32_control_node
+```
+
+This sets up your ROS 2 workspace and starts the ESP32 node, which listens for joint angle commands and moves the motors accordingly.
+
+Then in the **same terminal**, run:
+
+```bash
+python3 /home/ela2/ros2_ws_arms/src/GUI/GUI.py
+```
+
+This opens the GUI you made to control each joint of the robotic arm manually. You can input joint angles or select predefined gestures.
+
+(Optional) If you want to visualize the arms in RViz:
+
+```bash
+ros2 launch ela2_arms display.launch.py
+```
+
+This launches RViz with your robot model and controllers, just for visualization/debugging.
+
+---
+
+### 🗣️ Chatbot System (ASR + NLP + TTS)
+
+Before launching the chatbot, you should set the default audio sink (speaker):
+
+```bash
+./set-default-sink.sh
+```
+
+This script sets your USB speaker as the default output. It waits 5 seconds before setting the sink to make sure PulseAudio is ready. It also unmutes the speaker and sets the volume to 100%. It does **not** handle the microphone.
+
+To launch the full chatbot system:
+
+```bash
+./run_tmux_chatbot.sh
+```
+
+This script uses `tmux` to run multiple components in parallel:
+
+* `ela2_ears.py`: Handles ASR (Speech-to-Text)
+* `Chatbot.py`: Handles text-based interaction using Mistral AI
+* `ela2_mouth.py`: Handles TTS (Text-to-Speech)
+* `set-default-sink.sh`: Re-applies audio settings if needed
+
+`tmux` automatically splits the terminal into panes and runs everything neatly. You can stop it any time with `Ctrl+B` then `D` to detach or `exit` in each pane.
+
+---
+
+### 🧭 Navigation System (LiDAR + Map + RViz)
+
+First, fix the timestamp issue with the `/scan` topic:
+
+```bash
+python3 /home/ela2/ELA2.0_NAV/src/ydlidar_ros2_driver/launch/fix_scan_timestamp.py
+```
+
+This runs a custom node that republishes the `/scan` data to a new topic (`/scan_fixed`) with corrected timestamps. This fixes sync issues in AMCL or SLAM due to incorrect timestamps.
+
+Then launch the full navigation stack:
+
+```bash
+ros2 launch ela2_nav ela2_nav.launch.xml bringup:=true display:=true pre_map:=true map:=apcore
+```
+
+This command brings up:
+
+* The robot model in RViz
+* LiDAR-based localization (AMCL)
+* Navigation2 stack using the preloaded `apcore` map
+
+---
+
+### 📡 ESP32 Firmware
+
+The file `ESP32_Code.ino` contains the firmware that runs on the ESP32 microcontroller. It listens for commands from the ROS node and moves the servo motors accordingly.
+
+---
+
+### 🔗 More on Navigation
+
+Navigation is developed by my teammate. For more details, refer to:
+[ELA2.0\_NAV GitHub Repository](https://github.com/LimJingXiang1226/ELA2.0_NAV?tab=readme-ov-file)
+
+---
+
+### 💡 Should We Explain the Whole System?
+
+Yes — it's a good idea to include an overview diagram and a short explanation showing how the arms, chatbot, and navigation all talk to each other. Let me know if you want help drawing that or writing the system architecture explanation.
+
+---
+
+Let me know if you want:
+
+* Edits to the tone (more casual/formal)
+* Markdown headers for sections
+* Diagrams or architecture explanation
+
+Ready to build the rest when you are.
