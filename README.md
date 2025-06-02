@@ -306,7 +306,7 @@ This gives you full terminal access to control the Jetson remotely.
 
 This lets you control the Jetson with a full remote desktop — very useful for GUI work like RViz, GUIs, or file browsing.
 
-#### 🧰 On the Jetson Nano:
+####  On the Jetson Nano:
 
 1. Download the `.deb` installer for ARM64 from:
    [https://www.nomachine.com/download/linux\&id=1](https://www.nomachine.com/download/linux&id=1)
@@ -322,9 +322,9 @@ This lets you control the Jetson with a full remote desktop — very useful for 
 
 4. Use `hostname -I` again if you forget the Jetson's IP.
 
----
 
-#### 🖥️ On Your Windows Laptop:
+
+####  On the Laptop:
 
 1. Download NoMachine from:
    [https://www.nomachine.com/download/download\&id=2](https://www.nomachine.com)
