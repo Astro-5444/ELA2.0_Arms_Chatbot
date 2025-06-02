@@ -202,3 +202,139 @@ This command brings up:
 
 Navigation is developed by my teammate. For more details, refer to:
 [ELA2.0\_NAV GitHub Repository](https://github.com/LimJingXiang1226/ELA2.0_NAV?tab=readme-ov-file)
+---
+---
+# 📶 How to Connect to the Jetson Orin Nano (Headless or GUI)
+
+To control the Jetson Orin Nano from your laptop, follow these steps. You can either connect via terminal (`SSH`) or get full desktop access using `NoMachine`.
+
+---
+
+### 🖥️ Step 1: Connect Jetson to a Monitor and Launch the Desktop (Optional)
+
+If you're using the Jetson for the first time or need to set it up:
+
+1. Plug in:
+
+   * HDMI monitor
+   * Keyboard
+   * Mouse
+   * Power
+
+2. Once powered on, it may boot into a **black screen with a terminal**.
+
+3. Log in using your Ubuntu username and password (e.g., `ela2`).
+
+4. Then start the desktop manually:
+
+   ```bash
+   sudo systemctl start gdm
+   ```
+
+5. (Optional) To make the desktop launch automatically every time:
+
+   ```bash
+   sudo systemctl set-default graphical.target
+   ```
+
+---
+
+### 📡 Step 2: Connect Jetson Nano to the Same Wi-Fi
+
+Make sure your **Jetson Nano and Windows laptop are connected to the same Wi-Fi network**.
+
+* On the Jetson, open a terminal and run:
+
+  ```bash
+  hostname -I
+  ```
+
+* This will give you the IP address of the Jetson Nano (e.g., `192.168.1.45`)
+
+📌 **Keep this IP noted**, you’ll use it for remote access.
+
+---
+
+## 🔗 Step 3: Choose a Way to Connect Remotely
+
+You now have two connection options:
+
+ A. **SSH (terminal access only)**
+
+ B. **NoMachine (full GUI desktop)**
+
+---
+
+### 🅰️ Option A: Connect Using SSH (Command Line Only)
+
+This gives you full terminal access to control the Jetson remotely.
+
+#### 🧰 Requirements:
+
+* Your Jetson is ON and connected to Wi-Fi
+* You have its IP address
+* You know the username and password
+
+#### 🪟 On Windows:
+
+1. Open **Windows Terminal**, **PowerShell**, or **Command Prompt**
+
+2. Type:
+
+   ```bash
+   ssh username@<ip_address>
+   ```
+
+   Example:
+
+   ```bash
+   ssh ela2@192.168.1.45
+   ```
+
+3. Enter your Jetson’s password when prompted.
+   ```bash
+   username: ela2
+   password: ela2 
+   ```
+
+✅ You're now logged in and can control everything via terminal.
+
+---
+
+### 🅱️ Option B: Connect Using NoMachine (Full Desktop GUI)
+
+This lets you control the Jetson with a full remote desktop — very useful for GUI work like RViz, GUIs, or file browsing.
+
+#### 🧰 On the Jetson Nano:
+
+1. Download the `.deb` installer for ARM64 from:
+   [https://www.nomachine.com/download/linux\&id=1](https://www.nomachine.com/download/linux&id=1)
+
+2. In the Jetson terminal:
+
+   ```bash
+   sudo dpkg -i nomachine_*.deb
+   sudo apt --fix-broken install
+   ```
+
+3. After installation, NoMachine will run in the background.
+
+4. Use `hostname -I` again if you forget the Jetson's IP.
+
+---
+
+#### 🖥️ On Your Windows Laptop:
+
+1. Download NoMachine from:
+   [https://www.nomachine.com/download/download\&id=2](https://www.nomachine.com)
+
+2. Open NoMachine. If the Jetson is on the same network, it may appear automatically.
+
+   * If not, click **“Add”** and manually enter the IP.
+
+3. Log in with your Jetson username and password.
+
+✅ You now have access to the Jetson’s full desktop remotely — just like using a normal PC!
+
+
+
