@@ -15,7 +15,7 @@ The goal was to let users control the robot using natural language and see the r
 
 # 🔄 How the System Works
 
-![System Flowchart](Additional_Information/Picture1.png)
+![System Flowchart](Additional Information/Picture1.png)
 
 
 The robot operates as a modular system where each part (arms, chatbot, navigation) runs independently but communicates through ROS 2. Here's a breakdown of the process:
