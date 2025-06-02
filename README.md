@@ -15,7 +15,10 @@ The goal was to let users control the robot using natural language and see the r
 
 # 🔄 How the System Works
 
-![System Flowchart](Additional/Picture1.png)
+<p align="center">
+  <img src="Additional/Picture1.png" alt="System Flowchart" width="600"/>
+</p>
+
 
 
 The robot operates as a modular system where each part (arms, chatbot, navigation) runs independently but communicates through ROS 2. Here's a breakdown of the process:
@@ -101,7 +104,7 @@ The system is designed in a loop with modular components. You can:
 * Expand action types without touching the main logic
 
 
-For more information check:
+For more information read:
 [📄 ELA 2.0 System Implementation Report](Additional/ELA%202.0%20System%20implementation.pdf)
 
 
