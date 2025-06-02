@@ -151,6 +151,8 @@ This launches RViz with your robot model and controllers, just for visualization
 
 ### 2) 🗣️ Chatbot System (ASR + NLP + TTS)
 
+**🛑 Note: All commands in this section must be run from an SSH session into the Jetson Nano.**
+
 Before launching the chatbot, you should set the default audio sink (speaker):
 
 ```bash
