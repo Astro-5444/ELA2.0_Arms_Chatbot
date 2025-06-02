@@ -16,7 +16,7 @@ The goal was to let users control the robot using natural language and see the r
 # 🔄 How the System Works
 
 <p align="center">
-  <img src="Additional/Picture1.png" alt="System Flowchart" width="600"/>
+  <img src="Additional/Picture1.png" alt="System Flowchart" width="300"/>
 </p>
 
 
@@ -131,7 +131,7 @@ This sets up your ROS 2 workspace and starts the ESP32 node, which listens for j
 
 *The file `ESP32_Code.ino` contains the firmware that runs on the ESP32 microcontroller. It listens for commands from the ROS node and moves the servo motors accordingly.*
 
-Then in the **same terminal**, run:
+Then in a **new terminal**, run:
 
 ```bash
 python3 /home/ela2/ros2_ws_arms/src/GUI/GUI.py
