@@ -202,13 +202,14 @@ This command brings up:
 
 Navigation is developed by my teammate. For more details, refer to:
 [ELA2.0\_NAV GitHub Repository](https://github.com/LimJingXiang1226/ELA2.0_NAV?tab=readme-ov-file)
+
 ---
----
+
 # 📶 How to Connect to the Jetson Orin Nano (Headless or GUI)
 
 To control the Jetson Orin Nano from your laptop, follow these steps. You can either connect via terminal (`SSH`) or get full desktop access using `NoMachine`.
 
----
+
 
 ### 🖥️ Step 1: Connect Jetson to a Monitor and Launch the Desktop (Optional)
 
