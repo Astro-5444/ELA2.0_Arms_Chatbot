@@ -13,15 +13,108 @@ The goal was to let users control the robot using natural language and see the r
 
 ---
 
+# 🔄 How the System Works
+
+![System Flowchart](Additional_Information/Picture1.png)
+
+
+The robot operates as a modular system where each part (arms, chatbot, navigation) runs independently but communicates through ROS 2. Here's a breakdown of the process:
+
+### 🟢 Startup & Initialization
+
+When the robot starts, it launches all core modules:
+
+* **ASR** for speech input
+* **TTS** for speech output
+* **Gesture recognition** using MediaPipe
+* **Chatbot** using the Mistral API
+* **Arm GUI** for gesture testing and control
+* **RViz** for navigation visualization
+
+Each module runs separately, and coordination is managed by the chatbot logic + ROS 2.
+
+
+### 👂 Listening for Input
+
+The system listens to:
+
+* 🎙️ Microphone input → sent to ASR
+* 📷 Camera input → sent to gesture recognizer
+
+It can detect both voice and gesture input at the same time.
+
+
+
+### 🧠 Chatbot Processing
+
+Once an input is detected (voice or gesture), it's sent to the **Chatbot Operator System**, which uses the **Mistral API** to generate a structured response.
+
+This response may include:
+
+* `talk:` → What to say (TTS)
+* `action:` → What gesture to perform (arm movement)
+* `nav2_pose:` → Where to go (coordinates for navigation)
+
+
+
+### 🔊 Speech Output (TTS Path)
+
+If a `talk:` field is returned:
+
+* The message is spoken using TTS.
+* ASR is paused while TTS is speaking to avoid self-feedback.
+* Once done, ASR is resumed.
+
+### 🦾 Gesture Execution (Arm Control Path)
+
+If an `action:` is returned:
+
+* The command is sent to the GUI + ESP32 controller.
+* The ESP32 uses a PCA9685 PWM driver to move servo motors based on the selected gesture.
+
+
+
+### 🧭 Navigation Execution (Nav2 Path)
+
+If `nav2_pose:` is returned:
+
+* The robot sends the coordinates as a ROS 2 goal.
+* The Arduino and motors handle actual movement.
+
+
+
+### 💤 Return to Idle
+
+After completing a speech, gesture, or navigation task:
+
+* The robot returns to the idle state, waiting for the next input.
+* No manual reset is needed.
+
+
+
+### ♻️ Modular and Expandable
+
+The system is designed in a loop with modular components. You can:
+
+* Add new gestures, TTS responses, or navigation goals
+* Modify chatbot prompts
+* Expand action types without touching the main logic
+
+
+For more information check:
+[📄 ELA 2.0 System Implementation Report](Additional_Information/ELA%202.0%20System%20implementation.pdf)
+
+
+---
 
 
 # 🤖 How to Run the System
 
 This project controls a humanoid robot with a working arm system, a chatbot (using speech-to-text and text-to-speech), and autonomous navigation. Below are the steps to launch each part of the system.
 
----
 
-## 🦾 Arm Control (ESP32 + GUI)
+
+## 1) 🦾 Arm Control (ESP32 + GUI)
 
 You’ll run this in **one terminal**:
 
@@ -32,6 +125,8 @@ ros2 run esp32_controller esp32_control_node
 ```
 
 This sets up your ROS 2 workspace and starts the ESP32 node, which listens for joint angle commands and moves the motors accordingly.
+
+*The file `ESP32_Code.ino` contains the firmware that runs on the ESP32 microcontroller. It listens for commands from the ROS node and moves the servo motors accordingly.*
 
 Then in the **same terminal**, run:
 
@@ -51,7 +146,7 @@ This launches RViz with your robot model and controllers, just for visualization
 
 ---
 
-### 🗣️ Chatbot System (ASR + NLP + TTS)
+### 2) 🗣️ Chatbot System (ASR + NLP + TTS)
 
 Before launching the chatbot, you should set the default audio sink (speaker):
 
@@ -78,7 +173,7 @@ This script uses `tmux` to run multiple components in parallel:
 
 ---
 
-### 🧭 Navigation System (LiDAR + Map + RViz)
+### 🧭 3) Navigation System (LiDAR + Map + RViz)
 
 First, fix the timestamp issue with the `/scan` topic:
 
@@ -104,14 +199,3 @@ This command brings up:
 
 Navigation is developed by my teammate. For more details, refer to:
 [ELA2.0\_NAV GitHub Repository](https://github.com/LimJingXiang1226/ELA2.0_NAV?tab=readme-ov-file)
-
----
-
-### 📡 ESP32 Firmware
-
-The file `ESP32_Code.ino` contains the firmware that runs on the ESP32 microcontroller. It listens for commands from the ROS node and moves the servo motors accordingly.
-
----
-
-
-
