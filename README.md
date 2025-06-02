@@ -1,31 +1,39 @@
-### Project Overview 
-This project is about developing a humanoid robot that can move its arms, talk to people, and navigate through a mapped area. My part focused mainly on integrating and controlling the robotic arms and the chatbot system.
+---
+
+# 🤖 Humanoid Robot System
+
+## 📌 Project Overview
+
+This project involves the development of a humanoid robot capable of:
+
+* Moving its arms using servo motors
+* Interacting with users through speech (ASR, chatbot, TTS)
+* Navigating autonomously in a mapped environment
+
+My primary contribution focused on **integrating and controlling the robotic arms**, developing the **chatbot system**, and ensuring **system-level integration**.
 
 ---
 
-## I handled:
+## 🔧 Responsibilities
 
-🦾 Arm control using an ESP32 and servo motors via ROS 2
+* 🦾 Arm control via **ESP32** and **servo motors** using **ROS 2**
+* 🖥️ GUI creation for **manual arm manipulation**
+* 💬 Chatbot system using **Speech-to-Text**, **Mistral AI**, and **Text-to-Speech**
+* 🧠 System integration: managing launch scripts, audio configuration, and component synchronization
 
-🖥️ GUI development to control the arms manually
-
-💬 Chatbot integration using ASR (Speech-to-Text), Mistral AI for responses, and TTS (Text-to-Speech)
-
-🧠 Making sure all components run smoothly together, including launching scripts and fixing audio issues
-
-The goal was to let users control the robot using natural language and see the robot respond through movement and speech. The system runs on a Jetson Orin Nano and uses Python + ROS 2 to connect everything together.
+The robot is powered by a **Jetson Orin Nano** and developed with **Python** and **ROS 2**.
 
 ---
 
-## 🤖 How to Run the System
+## 🚀 How to Run the System
 
-This project controls a humanoid robot with a working arm system, a chatbot (using speech-to-text and text-to-speech), and autonomous navigation. Below are the steps to launch each part of the system.
+This system consists of three major components: **Arm Control**, **Chatbot**, and **Navigation**. Below are the instructions to run each part.
 
 ---
 
-### 🦾 Arm Control (ESP32 + GUI)
+### 🦿 Arm Control (ESP32 + GUI)
 
-You’ll run this in **one terminal**:
+#### 1. Launch the ESP32 Control Node
 
 ```bash
 cd ros2_ws_arms
@@ -33,86 +41,89 @@ cd ros2_ws_arms
 ros2 run esp32_controller esp32_control_node
 ```
 
-This sets up your ROS 2 workspace and starts the ESP32 node, which listens for joint angle commands and moves the motors accordingly.
+#### 2. Start the Arm Control GUI
 
-Then in the **same terminal**, run:
+In the **same terminal**, run:
 
 ```bash
 python3 /home/ela2/ros2_ws_arms/src/GUI/GUI.py
 ```
 
-This opens the GUI you made to control each joint of the robotic arm manually. You can input joint angles or select predefined gestures.
+This GUI allows you to manually control each joint using input fields or predefined gestures.
 
-(Optional) If you want to visualize the arms in RViz:
+#### (Optional) Visualize in RViz
 
 ```bash
 ros2 launch ela2_arms display.launch.py
 ```
 
-This launches RViz with your robot model and controllers, just for visualization/debugging.
+This launches RViz with the robot model for visual debugging.
 
 ---
 
-### 🗣️ Chatbot System (ASR + NLP + TTS)
+### 💬 Chatbot System (ASR + NLP + TTS)
 
-Before launching the chatbot, you should set the default audio sink (speaker):
+#### 1. Configure Audio Output
+
+Ensure the correct audio output is set:
 
 ```bash
 ./set-default-sink.sh
 ```
 
-This script sets your USB speaker as the default output. It waits 5 seconds before setting the sink to make sure PulseAudio is ready. It also unmutes the speaker and sets the volume to 100%. It does **not** handle the microphone.
+This script sets the USB speaker as the default, unmutes it, and sets volume to 100%.
 
-To launch the full chatbot system:
+#### 2. Launch the Chatbot System
 
 ```bash
 ./run_tmux_chatbot.sh
 ```
 
-This script uses `tmux` to run multiple components in parallel:
+This script uses `tmux` to run all components in parallel:
 
-* `ela2_ears.py`: Handles ASR (Speech-to-Text)
-* `Chatbot.py`: Handles text-based interaction using Mistral AI
-* `ela2_mouth.py`: Handles TTS (Text-to-Speech)
-* `set-default-sink.sh`: Re-applies audio settings if needed
+* `ela2_ears.py` – Speech-to-Text (ASR)
+* `Chatbot.py` – Mistral-based AI responses
+* `ela2_mouth.py` – Text-to-Speech (TTS)
+* `set-default-sink.sh` – Ensures audio settings are maintained
 
-`tmux` automatically splits the terminal into panes and runs everything neatly. You can stop it any time with `Ctrl+B` then `D` to detach or `exit` in each pane.
+> Use `Ctrl+B` then `D` to detach from `tmux`, or `exit` to stop individual panes.
 
 ---
 
 ### 🧭 Navigation System (LiDAR + Map + RViz)
 
-First, fix the timestamp issue with the `/scan` topic:
+#### 1. Fix LiDAR Timestamp Issue
 
 ```bash
 python3 /home/ela2/ELA2.0_NAV/src/ydlidar_ros2_driver/launch/fix_scan_timestamp.py
 ```
 
-This runs a custom node that republishes the `/scan` data to a new topic (`/scan_fixed`) with corrected timestamps. This fixes sync issues in AMCL or SLAM due to incorrect timestamps.
+This script republishes the `/scan` topic with corrected timestamps to `/scan_fixed`.
 
-Then launch the full navigation stack:
+#### 2. Launch Navigation Stack
 
 ```bash
 ros2 launch ela2_nav ela2_nav.launch.xml bringup:=true display:=true pre_map:=true map:=apcore
 ```
 
-This command brings up:
+This command launches:
 
-* The robot model in RViz
-* LiDAR-based localization (AMCL)
+* Robot visualization in RViz
+* AMCL for localization
 * Navigation2 stack using the preloaded `apcore` map
 
 ---
 
 ### 📡 ESP32 Firmware
 
-The file `ESP32_Code.ino` contains the firmware that runs on the ESP32 microcontroller. It listens for commands from the ROS node and moves the servo motors accordingly.
+The file `ESP32_Code.ino` contains the firmware for the ESP32 microcontroller. It receives joint angle commands from ROS and actuates the servos.
 
 ---
 
-### 🔗 More on Navigation
+### 🔗 Additional Resources
 
-Navigation is developed by my teammate. For more details, refer to:
-[ELA2.0\_NAV GitHub Repository](https://github.com/LimJingXiang1226/ELA2.0_NAV?tab=readme-ov-file)
+The navigation system was developed by a teammate. More information is available at the following repository:
 
+👉 [ELA2.0\_NAV GitHub Repository](https://github.com/LimJingXiang1226/ELA2.0_NAV?tab=readme-ov-file)
 
+---
