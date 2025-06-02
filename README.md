@@ -1,4 +1,19 @@
-Great! Here’s a draft section for your GitHub README, casually explaining how to run each part of your system. I’ve structured it based on your explanation, and added corrections where needed. We can later add an overall system diagram or explanation if you like.
+### Project Overview 
+This project is about developing a humanoid robot that can move its arms, talk to people, and navigate through a mapped area. My part focused mainly on integrating and controlling the robotic arms and the chatbot system.
+
+---
+
+## I handled:
+
+🦾 Arm control using an ESP32 and servo motors via ROS 2
+
+🖥️ GUI development to control the arms manually
+
+💬 Chatbot integration using ASR (Speech-to-Text), Mistral AI for responses, and TTS (Text-to-Speech)
+
+🧠 Making sure all components run smoothly together, including launching scripts and fixing audio issues
+
+The goal was to let users control the robot using natural language and see the robot respond through movement and speech. The system runs on a Jetson Orin Nano and uses Python + ROS 2 to connect everything together.
 
 ---
 
@@ -100,18 +115,4 @@ The file `ESP32_Code.ino` contains the firmware that runs on the ESP32 microcont
 Navigation is developed by my teammate. For more details, refer to:
 [ELA2.0\_NAV GitHub Repository](https://github.com/LimJingXiang1226/ELA2.0_NAV?tab=readme-ov-file)
 
----
 
-### 💡 Should We Explain the Whole System?
-
-Yes — it's a good idea to include an overview diagram and a short explanation showing how the arms, chatbot, and navigation all talk to each other. Let me know if you want help drawing that or writing the system architecture explanation.
-
----
-
-Let me know if you want:
-
-* Edits to the tone (more casual/formal)
-* Markdown headers for sections
-* Diagrams or architecture explanation
-
-Ready to build the rest when you are.
