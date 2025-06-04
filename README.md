@@ -207,7 +207,7 @@ Navigation is developed by my teammate. For more details, refer to:
 
 ---
 
-# 📶 How to Connect to the Jetson Orin Nano (Headless or GUI)
+# 📶 How to Connect to the Jetson Orin Nano 
 
 To control the Jetson Orin Nano from your laptop, follow these steps. You can either connect via terminal (`SSH`) or get full desktop access using `NoMachine`.
 
