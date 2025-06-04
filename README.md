@@ -205,6 +205,18 @@ This command brings up:
 Navigation is developed by my teammate. For more details, refer to:
 [ELA2.0\_NAV GitHub Repository](https://github.com/LimJingXiang1226/ELA2.0_NAV?tab=readme-ov-file)
 
+
+---
+
+### 👀 4) Machine Vision
+
+For machine vision simply run in the Jetson Nano:
+
+```bash
+python3 ros2_ws_arms/src/Chatbot/ela2_eyes.py
+```
+
+This will turn the machin vision and open the GUI for it
 ---
 
 # 📶 How to Connect to the Jetson Orin Nano 
