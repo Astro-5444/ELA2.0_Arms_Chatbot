@@ -217,6 +217,7 @@ python3 ros2_ws_arms/src/Chatbot/ela2_eyes.py
 ```
 
 This will turn the machin vision and open the GUI for it
+
 ---
 
 # 📶 How to Connect to the Jetson Orin Nano 
